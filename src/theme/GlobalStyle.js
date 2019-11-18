@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: 'Noto Sans', sans-serif;
+    background-color: ${({ theme }) => (theme.quaternary)};
     margin: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;

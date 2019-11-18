@@ -1,12 +1,16 @@
 import React from 'react';
 import GlobalStyle from 'theme/GlobalStyle';
-import MapContainer from "components/MapContainer";
+import {ThemeProvider} from 'styled-components';
+import theme from 'theme/theme';
+import MapContainer from 'components/MapContainer';
 
 const App = () => (
-  <>
-    <GlobalStyle/>
-    <MapContainer/>
-  </>
+  <ThemeProvider theme={theme}>
+    <>
+      <GlobalStyle/>
+      <MapContainer/>
+    </>
+  </ThemeProvider>
 );
 
 export default App;
