@@ -4,14 +4,14 @@ import {TransformWrapper, TransformComponent} from 'react-zoom-pan-pinch';
 import Map from 'components/Map';
 
 const Wrapper = styled.div`
-  background-color: ${({ theme }) => (theme.white)};
+  background-color: ${({theme}) => (theme.white)};
 `;
 
 class MapContainer extends Component {
   render() {
     return (
       <Wrapper>
-        <TransformWrapper>
+        <TransformWrapper defaultScale={10} maxScale={10}>
           <TransformComponent>
             <Map/>
           </TransformComponent>

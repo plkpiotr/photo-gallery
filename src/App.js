@@ -7,8 +7,10 @@ import MapContainer from 'components/MapContainer';
 const App = () => (
   <ThemeProvider theme={theme}>
     <>
+      <span>1st</span>
       <GlobalStyle/>
       <MapContainer/>
+      <span>2nd</span>
     </>
   </ThemeProvider>
 );
