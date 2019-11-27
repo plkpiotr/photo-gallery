@@ -22,8 +22,19 @@ const Wrapper = styled.a`
 
 const Map = () => (
   <Wrapper>
-    {images.map(i => <Thumbnail key={i.url} url={i.url} border={i.border} top={i.top} left={i.left}/>)}
-    <svg version="1.1" width="1920px" height="680px" xmlns="http://www.w3.org/2000/svg">
+    {images.map(i => <Thumbnail
+      key={i.photos[0]["url"]}
+      url={i.photos[0]["url"]}
+      border={i.border}
+      top={i.top}
+      left={i.left}
+    />)}
+    <svg
+      version="1.1"
+      width="1920px"
+      height="680px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path className="land"
             d="m619.87 393.72 0.499-0.149 0.104 0.838 2.194-0.481 2.319 0.079 1.694 0.091 1.92-2.072 2.091-1.974 1.772-1.908 0.534 1.056 0.381 2.437-1.433 0.012-0.229 1.997 0.496 0.425-1.269 0.601-8e-3 1.245-0.817 1.256-0.073 1.219-0.565 0.638-8.428-1.524-1.075-3.08z"/>
       <path className="land"

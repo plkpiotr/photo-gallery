@@ -5,8 +5,8 @@
 |Feature|Status|
 |---|---|
 |Map (zoom and pan)|&check;|
-|Thumbnails on the map (circles)|&cross;|
-|Thumbnails categories (colors)|&cross;|
+|Thumbnails on the map (circles)|&check;|
+|Thumbnails categories (colors)|&check;|
 |Photos filter (categories and data)|&cross;|
 |Animation after selecting (collapse)|&cross;|
 |Scroll to gallery after pressing|&cross;|

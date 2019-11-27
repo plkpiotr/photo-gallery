@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 const Thumbnail = styled.div`
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   background-image: url(${({url}) => (url)});
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid ${({border}) => (border)};
   position: relative;
   top: ${({top}) => (top)};
