@@ -11,7 +11,7 @@ class MapContainer extends Component {
   render() {
     return (
       <Wrapper>
-        <TransformWrapper defaultScale={8}>
+        <TransformWrapper defaultScale={1}>
           <TransformComponent>
             <Map/>
           </TransformComponent>
