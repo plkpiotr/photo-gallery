@@ -1,6 +1,8 @@
+import categories from "constants/categories";
+
 const images = [
   {
-    "border": "lime",
+    "border": categories[2],
     "left": "147px",
     "top": "392px",
     "date": "2016-12-22T20:45:00.000Z",
@@ -62,7 +64,7 @@ const images = [
       }
     }
   }, {
-    "border": "crimson",
+    "border": categories[0],
     "left": "474px",
     "top": "327px",
     "date": "2018-11-22T21:30:00.000Z",
@@ -124,7 +126,7 @@ const images = [
       }
     }
   }, {
-    "border": "crimson",
+    "border": categories[0],
     "left": "258px",
     "top": "387px",
     "date": "2018-11-22T21:30:00.000Z",
@@ -186,7 +188,7 @@ const images = [
       }
     }
   }, {
-    "border": "gold",
+    "border": categories[1],
     "left": "489px",
     "top": "350px",
     "date": "2014-08-30T21:00:00.000Z",
@@ -248,7 +250,7 @@ const images = [
       }
     }
   }, {
-    "border": "gold",
+    "border": categories[1],
     "left": "563px",
     "top": "406px",
     "date": "2011-11-23T18:21:30.000Z",
@@ -310,7 +312,7 @@ const images = [
       }
     }
   }, {
-    "border": "gold",
+    "border": categories[1],
     "left": "812px",
     "top": "399px",
     "date": "2011-11-23T18:21:30.000Z",
@@ -372,7 +374,7 @@ const images = [
       }
     }
   }, {
-    "border": "lime",
+    "border": categories[2],
     "left": "550px",
     "top": "339px",
     "date": "2014-08-30T21:00:00.000Z",
@@ -434,7 +436,7 @@ const images = [
       }
     }
   }, {
-    "border": "lime",
+    "border": categories[2],
     "left": "470px",
     "top": "362px",
     "date": "2014-08-30T21:00:00.000Z",
@@ -496,7 +498,7 @@ const images = [
       }
     }
   }, {
-    "border": "fuchsia",
+    "border": categories[4],
     "left": "505px",
     "top": "313px",
     "date": "2014-08-30T21:00:00.000Z",
@@ -558,7 +560,7 @@ const images = [
       }
     }
   }, {
-    "border": "dodgerBlue",
+    "border": categories[3],
     "left": "537px",
     "top": "308px",
     "date": "2013-07-30T20:00:00.000Z",
@@ -620,7 +622,7 @@ const images = [
       }
     }
   }, {
-    "border": "dodgerBlue",
+    "border": categories[3],
     "left": "262px",
     "top": "326px",
     "date": "2013-07-30T20:00:00.000Z",
@@ -682,7 +684,7 @@ const images = [
       }
     }
   }, {
-    "border": "dodgerBlue",
+    "border": categories[3],
     "left": "852px",
     "top": "304px",
     "date": "2012-06-22T18:45:00.000Z",
@@ -744,7 +746,7 @@ const images = [
       }
     }
   }, {
-    "border": "fuchsia",
+    "border": categories[4],
     "left": "138px",
     "top": "300px",
     "date": "2012-06-22T18:45:00.000Z",
@@ -806,7 +808,7 @@ const images = [
       }
     }
   }, {
-    "border": "fuchsia",
+    "border": categories[4],
     "left": "502px",
     "top": "250px",
     "date": "2012-06-22T18:45:00.000Z",
@@ -868,7 +870,7 @@ const images = [
       }
     }
   }, {
-    "border": "fuchsia",
+    "border": categories[4],
     "left": "574px",
     "top": "306px",
     "date": "2012-06-22T18:45:00.000Z",

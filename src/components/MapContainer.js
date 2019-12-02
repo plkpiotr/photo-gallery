@@ -12,6 +12,7 @@ class MapContainer extends Component {
     return (
       <Wrapper>
         <TransformWrapper>
+        {/*<TransformWrapper defaultScale={2.4}>*/}
           <TransformComponent>
             <Map/>
           </TransformComponent>

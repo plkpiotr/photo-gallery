@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Thumbnail = styled.div`
-  margin: -11px;
+  margin: -14px;
   width: 12px;
   height: 12px;
   background-image: url(${({url}) => (url)});
