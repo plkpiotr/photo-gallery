@@ -3,8 +3,8 @@ import categories from "constants/categories";
 const images = [
   {
     "border": categories[2],
-    "left": "147px",
-    "top": "392px",
+    "left": "150px",
+    "top": "347px",
     "date": "2016-12-22T20:45:00.000Z",
     "photos": {
       "0": {
@@ -65,8 +65,8 @@ const images = [
     }
   }, {
     "border": categories[0],
-    "left": "474px",
-    "top": "327px",
+    "left": "477px",
+    "top": "285px",
     "date": "2018-11-22T21:30:00.000Z",
     "photos": {
       "0": {
@@ -127,8 +127,8 @@ const images = [
     }
   }, {
     "border": categories[0],
-    "left": "258px",
-    "top": "387px",
+    "left": "261px",
+    "top": "347px",
     "date": "2018-11-22T21:30:00.000Z",
     "photos": {
       "0": {
@@ -190,7 +190,7 @@ const images = [
   }, {
     "border": categories[1],
     "left": "489px",
-    "top": "350px",
+    "top": "315px",
     "date": "2014-08-30T21:00:00.000Z",
     "photos": {
       "0": {
@@ -209,22 +209,22 @@ const images = [
         "url": "https://traveluto.com/wp-content/uploads/2016/03/arc_de_triomphe.jpg"
       },
       "3": {
-        "title": "Paris",
+        "title": "Louvre Museum",
         "description": "The city is a major railway, highway, and air-transport hub served by two international airports",
         "url": "https://www.kids-world-travel-guide.com/images/eiffeltower_shutterstock_125112029-2.jpg"
       },
       "4": {
-        "title": "France",
+        "title": "Arc de Triomphe",
         "description": "Paris is especially known for its museums and architectural landmarks",
         "url": "https://www.kids-world-travel-guide.com/images/louvre_ed_pichetw_shutterstock_227545819-2.jpg"
       },
       "5": {
-        "title": "Sacre Coeur",
+        "title": "Montmartre",
         "description": "Paris grew in population from about 400,000 in 1640 to 650,000 in 1780",
         "url": "https://www.touropia.com/gfx/b/2013/02/sacre_coeur.jpg"
       },
       "6": {
-        "title": "Paris",
+        "title": "Luxembourg Gardens",
         "description": "The city is a major railway, highway, and air-transport hub served by two international airports",
         "url": "https://traveluto.com/wp-content/uploads/2016/03/notre_dame_de_paris.jpg"
       },
@@ -234,25 +234,25 @@ const images = [
         "url": "https://luxurycolumnist.com/wp-content/uploads/2018/07/arles-ampitheatre-france-800x533.jpg"
       },
       "8": {
-        "title": "Sacre Coeur",
+        "title": "Luxembourg Gardens",
         "description": "Paris grew in population from about 400,000 in 1640 to 650,000 in 1780",
         "url": "https://www.starpik.com/wp-content/uploads/2018/12/The-Palace-of-Fontainebleau-at-daylight.-View-from-bottom.-France-landmarks.jpg"
       },
       "9": {
-        "title": "France",
+        "title": "Notre-Dame",
         "description": "The city is a major railway, highway, and air-transport hub served by two international airports",
         "url": "https://i0.wp.com/frenchmoments.eu/wp-content/uploads/2013/06/Panth%C3%A9on-Paris-%C2%A9-French-Moments.jpg?resize=702%2C470&ssl=1"
       },
       "10": {
-        "title": "Sacre Coeur",
+        "title": "Musee d'Orsay",
         "description": "Paris is especially known for its museums and architectural landmarks",
         "url": "https://d39gusjpdm7p1o.cloudfront.net/data/layout_grouping/static_page_step/20784_a330628091ede7eb1548d6cda58e0357.jpg?ver=1477297804"
       }
     }
   }, {
     "border": categories[1],
-    "left": "563px",
-    "top": "406px",
+    "left": "565px",
+    "top": "374px",
     "date": "2011-11-23T18:21:30.000Z",
     "photos": {
       "0": {
@@ -271,37 +271,37 @@ const images = [
         "url": "https://ichef.bbci.co.uk/news/660/cpsprodpb/94AC/production/_109206083_gettyimages-1133412587.jpg"
       },
       "3": {
-        "title": "Cairo",
+        "title": "Giza Necropolis",
         "description": "Cairo has the oldest and largest film and music industries in the Arab world",
         "url": "https://www.sachamber.org/wp-content/uploads/2019/08/Cairo.jpg"
       },
       "4": {
-        "title": "Egypt",
+        "title": "Egyptian Museum",
         "description": "The area around present-day Cairo, especially Memphis that was the old capital of Egypt",
         "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/78/0a.jpg"
       },
       "5": {
-        "title": "Modern era",
+        "title": "Khan el-Khalili",
         "description": "The British occupation was intended to be temporary, but it lasted well into the 20th century",
         "url": "https://cdn.civitatis.com/egipto/el-cairo/cairo-piramides-1-dia-grid.jpg"
       },
       "6": {
-        "title": "Cairo",
+        "title": "Pyramid of Djoser",
         "description": "Cairo has the oldest and largest film and music industries in the Arab world",
         "url": "https://www.meed.com/wp-content/uploads/2019/09/shutterstock_1481228141-780x520.gif"
       },
       "7": {
-        "title": "Egypt",
+        "title": "Luxor",
         "description": "The area around present-day Cairo, especially Memphis that was the old capital of Egypt",
         "url": "https://breathewithus.com/wp-content/uploads/2017/01/cairo-citadel-view-710x399.jpg"
       },
       "8": {
-        "title": "Modern era",
+        "title": "Cairo Tower",
         "description": "The British occupation was intended to be temporary, but it lasted well into the 20th century",
         "url": "https://www.billboard.com/files/styles/article_main_image/public/media/eminem-live-snl-2017-a-billboard-1548.jpg"
       },
       "9": {
-        "title": "Cairo",
+        "title": "City of the Dead",
         "description": "Cairo has the oldest and largest film and music industries in the Arab world",
         "url": "https://cdn.civitatis.com/egipto/alejandria/galeria/giza.jpg"
       },
@@ -313,8 +313,8 @@ const images = [
     }
   }, {
     "border": categories[1],
-    "left": "812px",
-    "top": "399px",
+    "left": "814px",
+    "top": "369px",
     "date": "2011-11-23T18:21:30.000Z",
     "photos": {
       "0": {
@@ -328,59 +328,59 @@ const images = [
         "url": "https://www.topchinatravel.com/pic/china-tour-pic/beijing/bird-nest-01.jpg"
       },
       "2": {
-        "title": "Location",
+        "title": "Forbidden City",
         "description": "Over the past 3,000 years, the city of Beijing has had numerous other names",
         "url": "https://www.planetware.com/wpimages/2018/09/china-beijing-attractions-great-wall-of-china.jpg"
       },
       "3": {
-        "title": "Beijing",
+        "title": "Summer Palace",
         "description": "Beijing is an important world capital and global power city",
         "url": "https://www.touropia.com/gfx/d/beautiful-palaces-in-the-world/forbidden_city.jpg?v=7aeb0bf698335167c219310493b26ace"
       },
       "4": {
-        "title": "China",
+        "title": "Temple of Heaven",
         "description": "Combining both modern and traditional architecture",
         "url": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/China/Beijing/beihai-park-beijing-attractions.jpg"
       },
       "5": {
-        "title": "Location",
+        "title": "Tiananmen Square",
         "description": "Over the past 3,000 years, the city of Beijing has had numerous other names",
         "url": "https://www.planetware.com/wpimages/2018/09/china-beijing-attractions-the-summer-palace.jpg"
       },
       "6": {
-        "title": "Beijing",
+        "title": "Great Wall of Badaling",
         "description": "Beijing is an important world capital and global power city",
         "url": "https://www.topchinatravel.com/pic/china-tour-pic/beijing/cctv-building-beijing.jpg"
       },
       "7": {
-        "title": "China",
+        "title": "Ming Dynasty Tombs",
         "description": "Combining both modern and traditional architecture",
         "url": "https://www.chinadiscovery.com/assets/images/beijing/things-to-do/lama-temple-245c.jpg"
       },
       "8": {
-        "title": "Location",
+        "title": "Jingshan Park",
         "description": "Over the past 3,000 years, the city of Beijing has had numerous other names",
         "url": "https://www.chinadiscovery.com/assets/images/beijing/beijing-soho-595.jpg"
       },
       "9": {
-        "title": "Beijing",
+        "title": "Beihai Park",
         "description": "Beijing is an important world capital and global power city",
         "url": "https://www.webjet.com.au/travel/wp-content/uploads/2018/03/10_Must_See_Landmarks_in_China.jpg"
       },
       "10": {
-        "title": "China",
+        "title": "Lama Temple",
         "description": "Combining both modern and traditional architecture",
         "url": "https://traveluto.com/wp-content/uploads/2017/06/Forbidden_City.jpg"
       }
     }
   }, {
     "border": categories[2],
-    "left": "550px",
-    "top": "339px",
+    "left": "552px",
+    "top": "312px",
     "date": "2014-08-30T21:00:00.000Z",
     "photos": {
       "0": {
-        "title": "UTA Arad",
+        "title": "Astra Giurgiu",
         "description": "The first official national football tournament was organized in 1909",
         "url": "https://amp.businessinsider.com/images/572d8464dd08956c3e8b4579-750-563.jpg"
       },
@@ -390,17 +390,17 @@ const images = [
         "url": "https://image.businessinsider.com/572d8464dd08956c3e8b4586?width=1200&format=jpeg"
       },
       "2": {
-        "title": "Unirea Urziceni",
+        "title": "Viitorul",
         "description": "Since 2014, the Liga I has been reduced to a 14-team format",
         "url": "https://budapestbeacon.com/wp-content/uploads/2016/07/debrecen-1.jpeg"
       },
       "3": {
-        "title": "UTA Arad",
+        "title": "FCSB",
         "description": "The first official national football tournament was organized in 1909",
         "url": "https://www.ncaa.com/sites/default/files/public/images/2019-07-22/Best-college-soccer-stadiums.png"
       },
       "4": {
-        "title": "Steaua",
+        "title": "Politehnica",
         "description": "The 1921–22 season marked the first time when a league consisting of seven teams was formed",
         "url": "https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2018%2F03%2F5aa1ad603ef2e_stadium_rendering_inner_3quarter_view.jpeg&width=717&sign=tyHUSHEDti2HAIkdu3qiCB2iyB7xm0Ovs1HUYUORgDw"
       },
@@ -415,30 +415,30 @@ const images = [
         "url": "https://one37pm.imgix.net/one37pm-editor-dev-images/s3fs-public/user-images/2019-03/Stadium-of-Light-mobile.jpg?ch=Width,DPR&auto=compress&q=60&w=412&fit=clip&dpr=2"
       },
       "7": {
-        "title": "Steaua",
+        "title": "Chindia",
         "description": "The 1921–22 season marked the first time when a league consisting of seven teams was formed",
         "url": "https://i.pinimg.com/originals/e0/d7/56/e0d75686b0d1633f3b9dc9e04cf725d9.jpg"
       },
       "8": {
-        "title": "UTA Arad",
+        "title": "Hermannstadt",
         "description": "The first official national football tournament was organized in 1909",
         "url": "https://soccergator.io/wp-content/uploads/post-media/11%20Best%20Stadiums%20in%20Germany%20(National%20and_or%20Club%20Stadiums)/Allianz-Arena-Bayern-Munich.jpeg"
       },
       "9": {
-        "title": "Steaua",
+        "title": "Gaz Metan",
         "description": "The 1921–22 season marked the first time when a league consisting of seven teams was formed",
         "url": "https://www.stadiumguide.com/wp-content/gallery/veltins/veltins8.JPG"
       },
       "10": {
-        "title": "Unirea Urziceni",
+        "title": "Dinamo",
         "description": "Since 2014, the Liga I has been reduced to a 14-team format",
         "url": "https://www.stadiumguide.com/wp-content/gallery/veltins/veltins5.JPG"
       }
     }
   }, {
     "border": categories[2],
-    "left": "470px",
-    "top": "362px",
+    "left": "472px",
+    "top": "338px",
     "date": "2014-08-30T21:00:00.000Z",
     "photos": {
       "0": {
@@ -499,8 +499,8 @@ const images = [
     }
   }, {
     "border": categories[4],
-    "left": "505px",
-    "top": "313px",
+    "left": "509px",
+    "top": "290px",
     "date": "2014-08-30T21:00:00.000Z",
     "photos": {
       "0": {
@@ -519,42 +519,42 @@ const images = [
         "url": "http://www.traveltripservice.com/wp-content/uploads/2019/09/image-1.png"
       },
       "3": {
-        "title": "Germany",
+        "title": "Dresden",
         "description": "Camping in Germany, to discover all the country's marvels",
         "url": "https://www.camprest.com/thumbnails/images/2014/7/3/c20b4b59-ab7d-4749-91a0-637671c80118.jpg/1024x0/scale/59f374a9c12b8857bc26e684f3901f32b4344c81.jpg"
       },
       "4": {
-        "title": "Essen",
+        "title": "Duisburg",
         "description": "Camping is popular in Germany",
         "url": "https://static.alanrogers.com/images/generated/1f54562d1750ed4a/DE40720-info-01_720_540_75_s_c1.jpg"
       },
       "5": {
-        "title": "Dortmund",
+        "title": "Augsburg",
         "description": "With over 750 campsites and motorhome sites",
         "url": "https://10exercisescom.files.wordpress.com/2017/06/2-person-tent-on-the-river-side.jpg?w=700"
       },
       "6": {
-        "title": "Germany",
+        "title": "Mannheim",
         "description": "Camping in Germany, to discover all the country's marvels",
         "url": "https://www.camprest.com/thumbnails/images/2014/2/27/9e6fb759-29e1-41d4-86a9-28a5fd6e07d3.jpg/1024x0/scale/4217f3126bb2990622ab51e9e0939287eb362f00.jpg"
       },
       "7": {
-        "title": "Essen",
+        "title": "Chemnitz",
         "description": "Camping is popular in Germany",
         "url": "https://lastfm.freetls.fastly.net/i/u/arO/73e88e8216664dd8bd27d6e6ee8b556b"
       },
       "8": {
-        "title": "Dortmund",
+        "title": "Karlsruhe",
         "description": "With over 750 campsites and motorhome sites",
         "url": "https://www.lunajournal.biz/wp-content/uploads/2017/05/2.1-3.jpg"
       },
       "9": {
-        "title": "Essen",
+        "title": "Ingolstadt",
         "description": "Camping is popular in Germany",
         "url": "https://q-cf.bstatic.com/images/hotel/max1024x768/137/137044433.jpg"
       },
       "10": {
-        "title": "Germany",
+        "title": "Bottrop",
         "description": "Camping in Germany, to discover all the country's marvels",
         "url": "https://i1.wp.com/taiwannews.worldtimes.news/wp-content/uploads/2019/06/taipeis-online-public-camping-application-platform-makes-it-easier-to-apply-for-campsites_5d1491daa7d07.jpeg?fit=800%2C600&ssl=1"
       }
@@ -562,69 +562,69 @@ const images = [
   }, {
     "border": categories[3],
     "left": "537px",
-    "top": "308px",
+    "top": "288px",
     "date": "2013-07-30T20:00:00.000Z",
     "photos": {
       "0": {
-        "title": "Skiing",
+        "title": "Czarna Góra",
         "description": "List of the best ski resorts in Poland",
         "url": "https://www.skiresort.info/typo3temp/assets/_processed_/53/3f/f0/0c/07a009cdb9.jpg"
       },
       "1": {
-        "title": "Snowboard",
+        "title": "Szczyrk",
         "description": "All information about skiing in Poland in one place",
         "url": "https://www.skiresort.info/typo3temp/_processed_/13/32/22/20/5e46989c72.jpg"
       },
       "2": {
-        "title": "Slope",
+        "title": "Szrenica",
         "description": "Everything you ever needed to know about skiing in Poland",
         "url": "https://img3.onthesnow.com/image/gg/50/504686.jpg"
       },
       "3": {
-        "title": "Skiing",
+        "title": "Białka Tatrzańska",
         "description": "List of the best ski resorts in Poland",
         "url": "https://ski-resort-stats.com/wp-content/uploads/2017/09/Poland-ski-resorts.jpg"
       },
       "4": {
-        "title": "Snowboard",
+        "title": "Krynica",
         "description": "All information about skiing in Poland in one place",
         "url": "https://www.skiresort.info/typo3temp/_processed_/c9/9b/b0/0a/bccf88c6e4.jpg"
       },
       "5": {
-        "title": "Slope",
+        "title": "Czarny Groń",
         "description": "Everything you ever needed to know about skiing in Poland",
         "url": "https://img5.onthesnow.com/image/gg/50/504682.jpg"
       },
       "6": {
-        "title": "Skiing",
+        "title": "Zieleniec",
         "description": "List of the best ski resorts in Poland",
         "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/e1/9a/8f/kotelnica-bialczanska.jpg"
       },
       "7": {
-        "title": "Snowboard",
+        "title": "Dwie Doliny",
         "description": "All information about skiing in Poland in one place",
         "url": "https://www.skiresort.info/typo3temp/_processed_/3c/cc/c3/3c/c14742927e.jpg"
       },
       "8": {
-        "title": "Slope",
+        "title": "Muszyna",
         "description": "Everything you ever needed to know about skiing in Poland",
         "url": "https://polska.pl/media/public/72/57/d332fd7420293107eb7a5465550.jpg__768x600_q85_crop-smart_subsampling-2_upscale.jpg"
       },
       "9": {
-        "title": "Skiing",
+        "title": "Wierchomla",
         "description": "List of the best ski resorts in Poland",
         "url": "https://www.skiresort.info/typo3temp/_processed_/17/70/06/68/88b6e9ed07.jpg"
       },
       "10": {
-        "title": "Snowboard",
+        "title": "Karpacz",
         "description": "All information about skiing in Poland in one place",
         "url": "https://through-lisas-eyes.com/wp-content/uploads/2018/02/poland-snowboarding-skiing-region-szrenica.png"
       }
     }
   }, {
     "border": categories[3],
-    "left": "262px",
-    "top": "326px",
+    "left": "140px",
+    "top": "288px",
     "date": "2013-07-30T20:00:00.000Z",
     "photos": {
       "0": {
@@ -643,42 +643,42 @@ const images = [
         "url": "https://cdn1.snowpak.com/images/images/000/009/148/medium/Nothing-beats-powder-skiing-at-Big-White.jpg?1518582553"
       },
       "3": {
-        "title": "Canada",
+        "title": "Stanley Park",
         "description": "Vancouver is consistently named as one of the top five worldwide cities",
         "url": "https://content.tui.co.uk/adamtui/2017_7/11_13/039673f6-0d25-4a59-b1b7-a7ad00da2c51/CAN_WHI_F017509WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)"
       },
       "4": {
-        "title": "British Colombia",
+        "title": "Granville Island",
         "description": "Vancouver has hosted many international conferences and events",
         "url": "http://cdn.mntm.me/9d/3b/b0/Skiing-in-Canada-Top-Canadian-Ski-Resorts-for-Families-9d3bb0d63f2e4d07884fa8f102f9b345.jpg"
       },
       "5": {
-        "title": "Vancouver",
+        "title": "Canada Place",
         "description": "Vancouver was originally named Gastown and began as a settlement",
         "url": "https://www.travelcounsellors.co.uk/media/2929157/skiing-in-whistler-canada.jpg"
       },
       "6": {
-        "title": "Canada",
+        "title": "Vancouver Aquarium",
         "description": "Vancouver is consistently named as one of the top five worldwide cities",
         "url": "https://www.powderhounds.com/site/DefaultSite/filesystem/images/Canada/Revelstoke/Overview/01.jpg"
       },
       "7": {
-        "title": "British Colombia",
+        "title": "Gastown",
         "description": "Vancouver has hosted many international conferences and events",
         "url": "https://cottagelife.com/wp-content/uploads/2015/01/shutterstock_95551669-2-copy-e1421343860559.jpg"
       },
       "8": {
-        "title": "Vancouver",
+        "title": "English Bay",
         "description": "Vancouver was originally named Gastown and began as a settlement",
         "url": "https://cdn.whistler.com/s3/images/og/whistler-skiing-winter.jpg"
       },
       "9": {
-        "title": "Canada",
+        "title": "Botanical Garden",
         "description": "Vancouver is consistently named as one of the top five worldwide cities",
         "url": "https://cdn.travel2next.com/wp-content/uploads/fernie-ski-resort-6-696x464.jpg"
       },
       "10": {
-        "title": "British Colombia",
+        "title": "Richmond",
         "description": "Vancouver has hosted many international conferences and events",
         "url": "https://www.tripsavvy.com/thmb/blvmEtshnI6M_hSywNAMSJVh8Gs=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/mid-adult-man-skiing-down-mountain--golden--british-columbia--canada-480984215-5b50d2f2c9e77c005b1b87be.jpg"
       }
@@ -686,7 +686,7 @@ const images = [
   }, {
     "border": categories[3],
     "left": "852px",
-    "top": "304px",
+    "top": "284px",
     "date": "2012-06-22T18:45:00.000Z",
     "photos": {
       "0": {
@@ -705,50 +705,50 @@ const images = [
         "url": "https://cdni.rt.com/russian/images/2019.06/article/5d03c60f370f2c8f348b45b0.jpg"
       },
       "3": {
-        "title": "Vladivostok",
+        "title": "Zolotoy Rog",
         "description": "List of the best ski resorts in Russia",
         "url": "http://www.boardrap.com/wp-content/uploads/2018/01/Kamchatka-surfing-snowboarding-russia-trip-900x675.jpg"
       },
       "4": {
-        "title": "Anik Mountain",
+        "title": "Vladivostok Fortress",
         "description": "It’s time to Rush-in to ski Russia",
         "url": "http://sputnikimages.com/images/0001/4709/18/000147091881_RIAN-ID-5831268.jpg"
       },
       "5": {
-        "title": "Artyom",
+        "title": "Primorskiy Oceanarium",
         "description": "Top Russia Skiing Area",
         "url": "https://caspiannews.com/media/caspian_news/all_original_photos/1542179309_699667_1542179156_2872772rosa_khutor.jpg"
       },
       "6": {
-        "title": "Vladivostok",
+        "title": "Russky Bridge",
         "description": "List of the best ski resorts in Russia",
         "url": "https://thumbs.dreamstime.com/b/rosa-khutor-sochi-russia-january-people-skiing-snowboarding-ski-resort-fron-pik-s-slopetriton-108854081.jpg"
       },
       "7": {
-        "title": "Anik Mountain",
+        "title": "Svetlanskaya Street",
         "description": "It’s time to Rush-in to ski Russia",
         "url": "https://bashny.net/uploads/images/00/00/44/2017/01/16/8fbb6a2abc.jpg"
       },
       "8": {
-        "title": "Artyom",
+        "title": "Shamora",
         "description": "Top Russia Skiing Area",
         "url": "https://ak8.picdn.net/shutterstock/videos/1022816068/thumb/8.jpg"
       },
       "9": {
-        "title": "Vladivostok",
+        "title": "Bukhta",
         "description": "List of the best ski resorts in Russia",
         "url": "http://sputnikimages.com/images/0001/3852/48/000138524803_RIAN-ID-5751031.jpg"
       },
       "10": {
-        "title": "Anik Mountain",
+        "title": "Pokrovsky park",
         "description": "It’s time to Rush-in to ski Russia",
         "url": "https://image.redbull.com/rbcom/052/2017-10-29/40e69306-fbb5-41b9-a7e0-a72156e5498c/0012/0/0/0/3456/5184/1050/1/method-movie-dasha-nosova-shooting-sparrow-knox.jpg"
       }
     }
   }, {
     "border": categories[4],
-    "left": "138px",
-    "top": "300px",
+    "left": "270px",
+    "top": "305px",
     "date": "2012-06-22T18:45:00.000Z",
     "photos": {
       "0": {
@@ -767,50 +767,50 @@ const images = [
         "url": "https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2019/01/04085847/iStock-465391659.jpg"
       },
       "3": {
-        "title": "Ontario",
+        "title": "CN Tower",
         "description": "Here we are again at the end of another camping season",
         "url": "https://i.cbc.ca/1.5158320.1559335660!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/glamping.jpg"
       },
       "4": {
-        "title": "Toronto",
+        "title": "Horseshoe Falls",
         "description": "Camping is one of the best ways to enjoy your national parks",
         "url": "https://i.cbc.ca/1.5158320.1559335660!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/glamping.jpg"
       },
       "5": {
-        "title": "Alberta",
+        "title": "Royal Ontario Museum",
         "description": "But camping in Canada is not exclusively",
         "url": "https://i.cbc.ca/1.2929383.1467667070!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/bc-camping.jpg"
       },
       "6": {
-        "title": "Ontario",
+        "title": "Casa Loma",
         "description": "Here we are again at the end of another camping season",
         "url": "https://cdn.familyfuncanada.com/wp-content/uploads/2019/04/Camping-with-Parks-Canada-Two-campers-relax-at-their-scenic-waterfront-campsite-at-Arbutus-Point-in-Gulf-Islands-National-Park-Reserve.-Photo-Parks-Canada-800x533.jpg"
       },
       "7": {
-        "title": "Toronto",
+        "title": "Skylon Tower",
         "description": "Camping is one of the best ways to enjoy your national parks",
         "url": "https://www.rent-a-tent-canada.com/images/Gallery/Rent-a-Tent-Canada_Meadowland6-setupService-Banff.jpg"
       },
       "8": {
-        "title": "Alberta",
+        "title": "Rideau Canal",
         "description": "But camping in Canada is not exclusively",
         "url": "https://cottagelife.com/wp-content/uploads/2015/08/800px-Berg_Lake_Canadian_Rockies.jpg"
       },
       "9": {
-        "title": "Ontario",
+        "title": "Provincial Park",
         "description": "Here we are again at the end of another camping season",
         "url": "https://www.rollingstone.com/wp-content/uploads/2019/04/CanadaCamping-cool.jpg?w=1024"
       },
       "10": {
-        "title": "Toronto",
+        "title": "Ripley's Aquarium",
         "description": "Camping is one of the best ways to enjoy your national parks",
         "url": "https://i1.wp.com/www.alltherooms.com/blog/wp-content/uploads/2018/08/Feature-Best-of-Camping-in-Canada-By-noppawan-leecharoenphong.jpg?fit=1000%2C667&ssl=1"
       }
     }
   }, {
     "border": categories[4],
-    "left": "502px",
-    "top": "250px",
+    "left": "505px",
+    "top": "240px",
     "date": "2012-06-22T18:45:00.000Z",
     "photos": {
       "0": {
@@ -849,22 +849,22 @@ const images = [
         "url": "https://media.holidayme.com/wp-content/uploads/2015/06/30150725/Holidayme_Amazing-Norway-Pics_Geiranger-Fjord_Banner_250886011.jpg"
       },
       "7": {
-        "title": "Trondheim",
+        "title": "Kirkenes",
         "description": "This is a list of urban areas in Norway",
         "url": "https://media.pixcove.com/H/9/2/Norway-Landscapes-Nature-Sandvinsvatnet-See-Sky-Fr-1452.jpg"
       },
       "8": {
-        "title": "Oslo",
+        "title": "Flam",
         "description": "A large city on a Norwegian scale",
         "url": "https://petapixel.com/assets/uploads/2014/12/norway_landscape_anderslonnfeldt_01.jpg"
       },
       "9": {
-        "title": "Bergen",
+        "title": "Tonsberg",
         "description": "For a list of towns and cities in Norway",
         "url": "https://images.unsplash.com/photo-1544085311-11a028465b03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
       },
       "10": {
-        "title": "Stavanger",
+        "title": "Tromso",
         "description": "A large city on a Norwegian scale",
         "url": "https://ak8.picdn.net/shutterstock/videos/10050188/thumb/1.jpg"
       }
@@ -872,7 +872,7 @@ const images = [
   }, {
     "border": categories[4],
     "left": "574px",
-    "top": "306px",
+    "top": "300px",
     "date": "2012-06-22T18:45:00.000Z",
     "photos": {
       "0": {
@@ -891,42 +891,42 @@ const images = [
         "url": "https://img.theculturetrip.com/768x432/wp-content/uploads/2017/09/field-2513145_1280.jpg"
       },
       "3": {
-        "title": "Transcarpathian",
+        "title": "Khortytsia",
         "description": "With its almost 13,000 square kilometres",
         "url": "https://ukrainetrek.com/blog/wp-content/uploads/2012/09/zakarpattia-region-ukraine-landscape-23.jpg"
       },
       "4": {
-        "title": "Zakarpattia",
+        "title": "Bayda",
         "description": "Zakarpatska Oblast was established on 22 January 1946",
         "url": "https://fzs.org/files/cache/705e3815f512dcfa50459b91a0b0a28c_f3647.jpg"
       },
       "5": {
-        "title": "Carpathian",
+        "title": "Dubovy Gai",
         "description": "Situated in the Carpathian Mountains of western Ukraine",
         "url": "https://ukrainetrek.com/blog/wp-content/uploads/2011/12/ukrainian-carpathians-landscape-2.jpg"
       },
       "6": {
-        "title": "Transcarpathian",
+        "title": "Skifskyi Stan",
         "description": "With its almost 13,000 square kilometres",
         "url": "https://media.pixcove.com/P/6/7/Ukraine-Landscapes-Nature-Landscape-Wetland-Scenic-8028.jpg"
       },
       "7": {
-        "title": "Zakarpattia",
+        "title": "Zaporizkyj Oak",
         "description": "Zakarpatska Oblast was established on 22 January 1946",
         "url": "https://www.worldatlas.com/r/w728-h425-c728x425/upload/77/a6/6b/shutterstock-445563247-min.jpg"
       },
       "8": {
-        "title": "Carpathian",
+        "title": "Krasny Stan",
         "description": "Situated in the Carpathian Mountains of western Ukraine",
         "url": "https://tripdude.in/admin/pacakgeimages/dnister2.jpg"
       },
       "9": {
-        "title": "Transcarpathian",
+        "title": "Staryy Dnipro",
         "description": "With its almost 13,000 square kilometres",
         "url": "http://www.krajoznawcy.info.pl/wp-content/uploads/2016/05/rejs-dniestrem-9-600x450.jpg"
       },
       "10": {
-        "title": "Zakarpattia",
+        "title": "Festyvalna",
         "description": "Zakarpatska Oblast was established on 22 January 1946",
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ukraine_-_Dniester_river_by_Khotyn.jpg"
       }

@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 
 const MapContainer = ({activeCategories}) => (
   <Wrapper>
-    <TransformWrapper defaultScale={7}>
+    <TransformWrapper defaultScale={2.4}>
       <TransformComponent>
         <Map activeCategories={activeCategories}/>
       </TransformComponent>

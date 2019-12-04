@@ -18,8 +18,8 @@
 |Lazy loading (scroll)|&cross;|
 |Invisible galleries without selecting|&cross;|
 |Stylize all of styled components|&cross;|
-|Add tooltips*|&cross;|
-|Use Context API*|&cross;|
+|Create tooltips for photos and countries*|&cross;|
+|Add lodash loading*|&cross;|
 
 ## How to install?
 ```
