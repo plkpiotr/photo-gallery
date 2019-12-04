@@ -48,7 +48,6 @@ class Map extends Component {
       activeCategories.splice(categoryIndex, 1);
     }
     this.setState({
-      activeCategories, // Check it out
       isCheckedCategories: {
         ...this.state.isCheckedCategories,
         [selectedCategory]: !this.state.isCheckedCategories[selectedCategory]
@@ -57,7 +56,7 @@ class Map extends Component {
   };
 
   render() {
-    const {activeCategories} = this.state;
+    const {activeCategories, isCheckedCategories} = this.state;
 
     let photos = images;
     photos = photos.filter(gallery => activeCategories.includes(gallery.border));
@@ -65,12 +64,12 @@ class Map extends Component {
     return (
       <>
         <Wrapper>
-          {photos.map(i => <Thumbnail
-            key={i.photos[0]["url"]}
-            url={i.photos[0]["url"]}
-            border={i.border}
-            top={i.top}
-            left={i.left}
+          {photos.map(photo => <Thumbnail
+            key={photo.photos[0]["url"]}
+            url={photo.photos[0]["url"]}
+            border={photo.border}
+            top={photo.top}
+            left={photo.left}
           />)}
           <svg
             version="1.1"
@@ -255,16 +254,16 @@ class Map extends Component {
             <path className="land" d="m567.1 489.21 1.324 1.259 0.713 2.402-0.478 0.768-0.563 2.302 0.538 2.361-0.882 0.993-0.851 2.659 1.474 0.744-8.508 2.37 0.266 2.055-2.124 0.396-1.597 1.154-0.341 1.006-1.003 0.228-2.439 2.395-1.552 1.893-0.947 0.068-0.911-0.338-3.134-0.32-0.504-0.219-0.021-0.242-1.107-0.659-1.817-0.168-2.296 0.664-1.83-1.823-1.892-2.377 0.129-9.158 5.839 0.036-0.239-0.986 0.418-1.068-0.493-1.336 0.319-1.379-0.297-0.881 0.968 0.071 0.16 0.883 1.314-0.069 1.78 0.262 0.937 1.291 2.246 0.397 1.714-0.898 0.629 1.492 2.149 0.398 1.033 1.216 1.151 1.573 2.146 0.024-0.234-3.08-0.77 0.518-1.96-1.108-0.757-0.507 0.347-2.851 0.498-3.351-0.628-1.246 0.799-1.799 0.752-0.337 3.766-0.475 1.104 0.286 1.172 0.717 1.117 0.472 1.782 0.474 1.591 0.848z"/>
             <path className="land" d="m562.71 527-1.49-0.301-0.945 0.362-1.357-0.511-1.141-0.032-1.787-1.358-2.168-0.46-0.825-1.895-7e-3 -1.051-1.201-0.32-3.173-3.255-0.882-1.706-0.564-0.525-1.079-2.344 3.134 0.32 0.911 0.338 0.947-0.068 1.552-1.893 2.439-2.395 1.003-0.228 0.341-1.006 1.597-1.154 2.124-0.396 0.181 1.08 2.339-0.058 1.299 0.612 0.605 0.718 1.334 0.211 1.457 0.934 6e-3 3.695-0.546 2.035-0.121 2.203 0.451 0.876-0.317 1.746-0.424 0.271-0.739 2.15-2.954 3.405z"/></svg>
         </Wrapper>
-        {categories.map(category => (
+        {categories.map(category =>
           <Input
             key={category}
             type="checkbox"
             name={category}
             value={category}
             onChange={this.changeEvent}
-            checked={this.state.isCheckedCategories[category]}
+            checked={isCheckedCategories[category]}
           />
-        ))}
+        )}
       </>
     );
   }

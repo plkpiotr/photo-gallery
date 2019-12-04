@@ -18,6 +18,7 @@
 |Lazy loading (scroll)|&cross;|
 |Invisible galleries without selecting|&cross;|
 |Stylize all of styled components|&cross;|
+|Add tooltips*|&cross;|
 
 ## How to install?
 ```
