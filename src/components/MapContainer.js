@@ -1,25 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import {TransformWrapper, TransformComponent} from 'react-zoom-pan-pinch';
+import {TransformComponent, TransformWrapper} from 'react-zoom-pan-pinch';
 import Map from 'components/Map';
 
 const Wrapper = styled.div`
   background-color: ${({theme}) => (theme.white)};
 `;
 
-class MapContainer extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <TransformWrapper>
-        {/*<TransformWrapper defaultScale={2.4}>*/}
-          <TransformComponent>
-            <Map/>
-          </TransformComponent>
-        </TransformWrapper>
-      </Wrapper>
-    );
-  }
-}
+const MapContainer = ({activeCategories}) => (
+  <Wrapper>
+    <TransformWrapper defaultScale={7}>
+      <TransformComponent>
+        <Map activeCategories={activeCategories}/>
+      </TransformComponent>
+    </TransformWrapper>
+  </Wrapper>
+);
 
 export default MapContainer;
