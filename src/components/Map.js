@@ -13,6 +13,12 @@ const Wrapper = styled.a`
     fill: ${({theme}) => (theme.tertiary)};
     stroke: ${({theme}) => (theme.secondary)};
     stroke-width: 0.5;
+    transition: .3s ease-in-out;
+    
+    &:hover {
+      fill: ${({theme}) => (theme.secondary)};
+      transition: .3s ease-in-out;
+    }
   }
 
   svg {
@@ -26,39 +32,35 @@ const Input = styled.input`
 
 class Map extends Component {
   state = {
-    optionChecked: [...categories],
-    categories: {
-      crimson: true,
-      gold: true,
-      lime: true,
-      dodgerBlue: true,
-      fuchsia: true,
+    activeCategories: [...categories],
+    isCheckedCategories: {
+      ...Object.fromEntries(categories.map(category => [category, true]),),
     },
   };
 
   changeEvent = (event) => {
-    let checkedArray = this.state.optionChecked;
-    let selectedValue = event.target.value;
+    let activeCategories = this.state.activeCategories;
+    let selectedCategory = event.target.value;
     if (event.target.checked === true) {
-      checkedArray.push(selectedValue);
+      activeCategories.push(selectedCategory);
     } else {
-      let valueIndex = checkedArray.indexOf(selectedValue);
-      checkedArray.splice(valueIndex, 1);
+      let categoryIndex = activeCategories.indexOf(selectedCategory);
+      activeCategories.splice(categoryIndex, 1);
     }
     this.setState({
-      optionChecked: checkedArray,
-      categories: {
-        ...this.state.categories,
-        [selectedValue]: !this.state.categories[selectedValue.toString()]
+      activeCategories, // Check it out
+      isCheckedCategories: {
+        ...this.state.isCheckedCategories,
+        [selectedCategory]: !this.state.isCheckedCategories[selectedCategory]
       }
     });
   };
 
   render() {
-    const {optionChecked} = this.state;
+    const {activeCategories} = this.state;
 
     let photos = images;
-    photos = photos.filter(collection => optionChecked.includes(collection.border));
+    photos = photos.filter(gallery => activeCategories.includes(gallery.border));
 
     return (
       <>
@@ -260,7 +262,7 @@ class Map extends Component {
             name={category}
             value={category}
             onChange={this.changeEvent}
-            checked={this.state.categories[category]}
+            checked={this.state.isCheckedCategories[category]}
           />
         ))}
       </>

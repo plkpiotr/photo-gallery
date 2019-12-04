@@ -6,8 +6,9 @@
 |---|---|
 |Map (zoom and pan)|&check;|
 |Thumbnails on the map (circles)|&check;|
-|Thumbnails categories (colors)|&check;|
-|Photos filter (categories and data)|&cross;|
+|Thumbnails isCheckedCategories (colors)|&check;|
+|Photos filter (by category)|&check;|
+|Photos filter (by date)|&cross;|
 |Animation after selecting (collapse)|&cross;|
 |Scroll to gallery after pressing|&cross;|
 |Display only selected galleries|&cross;|
@@ -26,4 +27,9 @@ npm i
 ## How to run?
 ```
 npm start
+```
+
+## How to deploy?
+```
+npm run deploy
 ```
