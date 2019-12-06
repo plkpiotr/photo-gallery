@@ -11,12 +11,12 @@ const Thumbnail = styled.div`
   position: relative;
   top: ${({top}) => (top)};
   left: ${({left}) => (left)};
-  transition: .3s ease-in-out;
+  transition: .4s ease-in-out;
   
   &:hover {
     cursor: pointer;
     transform: scale(2);
-    transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
   }
 `;
 

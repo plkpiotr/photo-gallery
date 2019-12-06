@@ -630,7 +630,7 @@ const images = [
       "0": {
         "title": "Canada",
         "description": "Vancouver is consistently named as one of the top five worldwide cities",
-        "url": "https://www.powderhounds.com/site/DefaultSite/filesystem/images/Canada/Canada/Overview/01.jpg"
+        "url": "https://www.denverpost.com/wp-content/uploads/2018/01/gus-kenworthy-snowmass.jpg?w=537"
       },
       "1": {
         "title": "British Colombia",

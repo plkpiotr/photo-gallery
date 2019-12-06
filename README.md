@@ -6,7 +6,7 @@
 |---|---|
 |Map (zoom and pan)|&check;|
 |Thumbnails on the map (circles)|&check;|
-|Thumbnails isCheckedCategories (colors)|&check;|
+|Thumbnails on the map (colors)|&check;|
 |Photos filter (by category)|&check;|
 |Photos filter (by date)|&cross;|
 |Animation after selecting (collapse)|&cross;|

@@ -1,9 +1,9 @@
 const categories = [
-  'hsl(12, 50%, 50%)',
-  'gold',
-  'lime',
-  'dodgerBlue',
-  'fuchsia'
+  '#0D19A3',
+  '#E4C580',
+  '#080F5B',
+  '#F4E4C1',
+  '#15DB95',
 ];
 
 export default categories;
