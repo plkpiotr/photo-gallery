@@ -12,9 +12,7 @@ const Input = styled.input`
 class App extends Component {
   state = {
     activeCategories: [...categories],
-    isCheckedCategories: {
-      ...Object.fromEntries(categories.map(category => [category, true]),),
-    },
+    isCheckedCategories: Object.fromEntries(categories.map(category => [category, true])),
   };
 
   changeEvent = (event) => {

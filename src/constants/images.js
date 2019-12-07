@@ -686,7 +686,7 @@ const images = [
   }, {
     "border": categories[3],
     "left": "852px",
-    "top": "284px",
+    "top": "290px",
     "date": "2012-06-22T18:45:00.000Z",
     "photos": {
       "0": {
