@@ -6,7 +6,7 @@ import MapContainer from 'components/MapContainer';
 import categories from "./constants/categories";
 
 const Input = styled.input`
-  border: mediumvioletred;
+  // TODO: Stylize checkboxes
 `;
 
 class App extends Component {

@@ -9,7 +9,7 @@
 |Thumbnails on the map (colors)|&check;|
 |Photos filter (by category)|&check;|
 |Photos filter (by date)|&cross;|
-|Animation after selecting (collapse)|&cross;|
+|Animation after selecting (fade)|&check;|
 |Scroll to gallery after pressing|&cross;|
 |Display only selected galleries|&cross;|
 |Photo contains title and description|&cross;|

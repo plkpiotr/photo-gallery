@@ -1,4 +1,5 @@
 import React from 'react';
+import Animation from 'components/Animation';
 import styled from 'styled-components';
 import Thumbnail from 'components/Thumbnail';
 import images from 'constants/images';
@@ -29,15 +30,21 @@ const Wrapper = styled.a`
 const Map = ({activeCategories}) => (
   <>
     <Wrapper>
-      {images.filter(gallery => activeCategories
-        .includes(gallery.border))
-        .map(photo => <Thumbnail
-          key={photo.photos[0]["url"]}
-          url={photo.photos[0]["url"]}
-          border={photo.border}
-          top={photo.top}
-          left={photo.left}
-        />)}
+      <Animation
+        transitionName="fade"
+        transitionAppear={true}
+        transitionEnter={true}
+        transitionLeave={true}>
+        {images.filter(gallery => activeCategories
+          .includes(gallery.border))
+          .map(photo => <Thumbnail
+            key={photo.photos[0]["url"]}
+            url={photo.photos[0]["url"]}
+            border={photo.border}
+            top={photo.top}
+            left={photo.left}
+          />)}
+      </Animation>
       <svg
         version="1.1"
         width="1920px"
