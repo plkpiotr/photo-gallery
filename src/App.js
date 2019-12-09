@@ -4,6 +4,7 @@ import styled, {ThemeProvider} from 'styled-components';
 import theme from 'theme/theme';
 import MapContainer from 'components/MapContainer';
 import categories from "./constants/categories";
+import galleries from "./constants/galleries";
 
 const Input = styled.input`
   // TODO: Stylize checkboxes
@@ -50,6 +51,16 @@ class App extends Component {
             />
           )}
           <MapContainer activeCategories={activeCategories}/>
+          <div>
+            {galleries.filter(gallery => activeCategories
+              .includes(gallery.border))
+              .map(gallery => gallery.photos
+                .map(photo => <img
+                  key={photo.url}
+                  src={photo.url}
+                  alt={photo.title}
+                />))}
+          </div>
         </>
       </ThemeProvider>
     );

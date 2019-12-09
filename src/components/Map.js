@@ -2,7 +2,7 @@ import React from 'react';
 import Animation from 'components/Animation';
 import styled from 'styled-components';
 import Thumbnail from 'components/Thumbnail';
-import images from 'constants/images';
+import galleries from 'constants/galleries';
 
 const Wrapper = styled.a`
   margin: auto;
@@ -34,15 +34,19 @@ const Map = ({activeCategories}) => (
         transitionName="fade"
         transitionAppear={true}
         transitionEnter={true}
-        transitionLeave={true}>
-        {images.filter(gallery => activeCategories
+        transitionLeave={true}
+        transitionAppearTimeout={0}
+        transitionEnterTimeout={0}
+        transitionLeaveTimeout={0}
+      >
+        {galleries.filter(gallery => activeCategories
           .includes(gallery.border))
-          .map(photo => <Thumbnail
-            key={photo.photos[0]["url"]}
-            url={photo.photos[0]["url"]}
-            border={photo.border}
-            top={photo.top}
-            left={photo.left}
+          .map(gallery => <Thumbnail
+            key={gallery.photos[0].url}
+            url={gallery.photos[0].url}
+            border={gallery.border}
+            top={gallery.top}
+            left={gallery.left}
           />)}
       </Animation>
       <svg
