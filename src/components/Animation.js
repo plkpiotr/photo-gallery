@@ -1,7 +1,14 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 
 const Animation = styled(ReactCSSTransitionGroup)`
+  ${({ galleries }) => (
+    galleries && css`
+      display: flex;
+      flex-wrap: wrap;                              
+    `
+  )}
+  
   ${({ transitionName }) => `.${transitionName}-enter`} {
     opacity: 0;
   }

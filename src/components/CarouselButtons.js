@@ -6,19 +6,21 @@ const Button = styled.button`
   align-items: center;
   background-color: transparent;
   cursor: pointer;
-  width: 4vw;
+  width: 2vw;
   min-height: 4vh;
   border: 0;
+  transition: .4s ease-in-out;
   
   &:after {
+    counter-increment: section;
     background-color: gold;
     width: 100%;
-    height: 2vh;
-    content: "";
+    content: ""counter(section)"";  
   }
   
   &.is-selected:after {
     background-color: aquamarine;
+    transition: .4s ease-in-out;
   }
 `;
 

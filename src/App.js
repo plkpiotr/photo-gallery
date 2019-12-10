@@ -3,9 +3,12 @@ import GlobalStyle from 'theme/GlobalStyle';
 import styled, {ThemeProvider} from 'styled-components';
 import theme from 'theme/theme';
 import MapContainer from 'components/MapContainer';
-import categories from "./constants/categories";
-import galleries from "./constants/galleries";
-import Carousel from "./components/Carousel";
+import categories from 'constants/categories';
+import Carousel from 'components/Carousel';
+import {LazyImageProvider} from 'components/LazyImageContext';
+import galleries from 'constants/galleries';
+import LazyImage from 'components/LazyImage';
+import Animation from 'components/Animation';
 
 const Input = styled.input`
   // TODO: Stylize checkboxes
@@ -39,43 +42,46 @@ class App extends Component {
 
     return (
       <ThemeProvider theme={theme}>
-        <>
+        <LazyImageProvider>
           <GlobalStyle/>
           {categories.map(category =>
-            <Input
-              key={category}
-              type="checkbox"
-              name={category}
-              value={category}
-              onChange={this.changeEvent}
-              checked={isCheckedCategories[category]}
-            />
+            <label>
+              <Input
+                key={category}
+                type="checkbox"
+                name={category}
+                value={category}
+                onChange={this.changeEvent}
+                checked={isCheckedCategories[category]}
+              />
+              {category}
+            </label>
           )}
           <MapContainer activeCategories={activeCategories}/>
-          <Carousel>
-            <div>Slide 1</div>
-            <div>Slide 2</div>
-            <div>Slide 3</div>
-            <div>Slide 4</div>
-            <div>Slide 5</div>
-            <div>Slide 6</div>
-            <div>Slide 7</div>
-            <div>Slide 8</div>
-            <div>Slide 9</div>
-            <div>Slide 10</div>
-            <div>Slide 11</div>
-          </Carousel>
-          {/*<div>*/}
-          {/*  {galleries.filter(gallery => activeCategories*/}
-          {/*    .includes(gallery.border))*/}
-          {/*    .map(gallery => gallery.photos*/}
-          {/*      .map(photo => <img*/}
-          {/*        key={photo.url}*/}
-          {/*        src={photo.url}*/}
-          {/*        alt={photo.title}*/}
-          {/*      />))}*/}
-          {/*</div>*/}
-        </>
+          <Animation
+            galleries
+            transitionName="fade"
+            transitionAppear={true}
+            transitionEnter={true}
+            transitionLeave={true}
+            transitionAppearTimeout={0}
+            transitionEnterTimeout={0}
+            transitionLeaveTimeout={0}
+          >
+            {galleries.map(gallery => (activeCategories.includes(gallery.border)) &&
+              <Carousel>
+                {gallery.photos.map(photo => <>
+                  <LazyImage
+                    key={photo.url}
+                    src={photo.url}
+                    alt={photo.title}
+                    aspectRatio={[16, 9]}
+                  />
+                  <caption>{photo.title}</caption>
+                </>)}
+              </Carousel>)}
+          </Animation>
+        </LazyImageProvider>
       </ThemeProvider>
     );
   }

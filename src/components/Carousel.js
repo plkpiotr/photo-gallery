@@ -1,11 +1,13 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import styled from 'styled-components';
 import EmblaCarouselReact from 'embla-carousel-react';
-import CarouselButtons from "./CarouselButtons";
+import CarouselButtons from 'components/CarouselButtons';
 
 const Wrapper = styled.div`
-  max-width: 80vw;
-  margin: 30px auto;
+  flex: 1;
+  min-width: 30vw;
+  max-width: 30vw;
+  margin: 2vh auto;
   background-color: violet;
 `;
 
@@ -28,11 +30,12 @@ const Container = styled.div`
 
 const Item = styled.div`
   position: relative;
-  flex: 0 0 80%;
+  flex: 0 0 100%; // TODO: Align 90%
   background-color: mediumvioletred;
 `;
 
 const Dots = styled.div`
+  counter-reset: section;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -68,9 +71,9 @@ const Carousel = ({children}) => {
         htmlTagName="div"
       >
         <Container>
-          {children.map((Child, index) => (
+          {children.map((child, index) => (
             <Item key={index}>
-              {Child}
+              {child}
             </Item>
           ))}
         </Container>
