@@ -59,7 +59,7 @@ class App extends Component {
           )}
           <MapContainer activeCategories={activeCategories}/>
           <Animation
-            galleries
+            galleries="true"
             transitionName="fade"
             transitionAppear={true}
             transitionEnter={true}
@@ -77,7 +77,7 @@ class App extends Component {
                     alt={photo.title}
                     aspectRatio={[16, 9]}
                   />
-                  <caption>{photo.title}</caption>
+                  <figcaption>{photo.title}</figcaption>
                 </>)}
               </Carousel>)}
           </Animation>

@@ -26,7 +26,7 @@ const galleries = [
       }, {
         "title": "D.C. United",
         "description": "Since 2018, the previous year's MLS Cup champion plays in the Campeones Cup",
-        "url": "https://www.washingtonpost.com/resizer/b6pBeKU9KIj_nkdEQ7Fzepv2N1A=/767x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WMNZAZHX54I6TDHQJTEZ65GRE4.jpg",
+        "url": "https://img.bleacherreport.net/img/images/photos/003/839/080/hi-res-e03f6dd212232b46174f7edff4af4154_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
       }, {
         "title": "Montreal Impact",
         "description": "Canadian MLS clubs play against other Canadian clubs in the Canadian Championship",
@@ -72,35 +72,35 @@ const galleries = [
         "description": "During World War I, Prokofiev returned to the Conservatory and studied organ to avoid conscription",
         "url": "https://medicitv-b.imgix.net/movie/lahav-shani-conducts-daniel-shalit-shostakovich-and-berlioz-leonidas-kavakos_d_0AcEAnE.jpg?auto=format&fit=crop&h=302&q=85&w=532"
       }, {
-        "title": "Tchaikovsky",
+        "title": "Vysotsky",
         "description": "Although musically precocious, Tchaikovsky was educated for a career as a civil servant",
         "url": "https://encorespotlight.com/wp-content/uploads/2019/02/SSO_Ludovic-Morlot-conducting-SSO_Jessica-Forsythe.jpg"
       }, {
-        "title": "Shostakovich",
+        "title": "Mussorgsky",
         "description": "His chamber output includes 15 string quartets, a piano quintet, two piano trios",
         "url": "https://media.imz.at/imzfiles/466260-slideshow-tchaikovsky-violin-concerto-shostakovich-symphony-no-5-vengerov-shanghai-symphony-orchestra-yu-7822230.jpg"
       }, {
-        "title": "Prokofiev",
+        "title": "Scriabin",
         "description": "During World War I, Prokofiev returned to the Conservatory and studied organ to avoid conscription",
         "url": "https://andantemoderato.com/wp-content/uploads/2015/02/Shostakovich-Symphony-No-10-Gergiev-BBC-Proms-2013-672x372.jpg"
       }, {
-        "title": "Tchaikovsky",
+        "title": "Stravinsky",
         "description": "Although musically precocious, Tchaikovsky was educated for a career as a civil servant",
         "url": "https://andywildingfmr.files.wordpress.com/2017/02/joanna-macgregor-arjan-tien-ctpo-prokofiev-shostakovich-stravinsky-classicalconcertreview.jpg?w=1200"
       }, {
-        "title": "Shostakovich",
+        "title": "Borodin",
         "description": "His chamber output includes 15 string quartets, a piano quintet, two piano trios",
         "url": "http://thumbor-prod-us-east-1.photo.aws.arc.pub/EO596j-9rrrN0S2PnseSBTexjNE=/arc-anglerfish-arc2-prod-dmn/public/MNDN55RXDKAODTDPEBDONOBXIE.jpg"
       }, {
-        "title": "Prokofiev",
+        "title": "Balakirev",
         "description": "During World War I, Prokofiev returned to the Conservatory and studied organ to avoid conscription",
         "url": "https://whyathens.com/wp-content/uploads/2018/02/Tchaikovsky-Symphony-Orchestra-Odeon-Athens-Festival-1024x512.jpg"
       }, {
-        "title": "Tchaikovsky",
+        "title": "Glinka",
         "description": "Although musically precocious, Tchaikovsky was educated for a career as a civil servant",
         "url": "https://krakow-tours.pl/pliki/concertPeterandPaulchurch_db542.jpg"
       }, {
-        "title": "Shostakovich",
+        "title": "Rimsky",
         "description": "His chamber output includes 15 string quartets, a piano quintet, two piano trios",
         "url": "https://i.ytimg.com/vi/1FMzS7QA7-0/maxresdefault.jpg"
       },
@@ -136,17 +136,9 @@ const galleries = [
         "description": "The city is served by a transit network, which includes four international airports",
         "url": "https://pmcvariety.files.wordpress.com/2017/07/eminem.png?w=1000"
       }, {
-        "title": "Till I Collapse",
-        "description": "The new tracks sounded a lot different than the ones I planned for Relapse 2",
-        "url": "https://i.pinimg.com/736x/f3/27/4d/f3274df3f9a8a5c11976fb60e512ae9c.jpg"
-      }, {
         "title": "Arose",
         "description": "I want to deliver more material to the fans this year as had previously planned",
         "url": "https://cdn.ipetitions.com/user-images/petitions/bring-eminems-revival-tour-to-australia/2b3a33606fe173f895eb2a0dc8320dcb.jpg"
-      }, {
-        "title": "Believe",
-        "description": "The city is served by a transit network, which includes four international airports",
-        "url": "https://i.pinimg.com/originals/5e/b0/26/5eb026e4bfd30396dbeee8aef4ee97f9.jpg"
       }, {
         "title": "Castle",
         "description": "The new tracks sounded a lot different than the ones I planned for Relapse 2",
@@ -250,7 +242,7 @@ const galleries = [
       }, {
         "title": "Cairo Tower",
         "description": "The British occupation was intended to be temporary, but it lasted well into the 20th century",
-        "url": "https://www.billboard.com/files/styles/article_main_image/public/media/eminem-live-snl-2017-a-billboard-1548.jpg"
+        "url": "https://ocdn.eu/pulscms-transforms/1/kDpk9kqTURBXy8wMmZlOTRlODM5MTIyNGJkODIzNmIwZDU0NWUwZjY4OC5qcGVnk5UDACvNBOjNAsKTBc0DFM0BvJMJpjhlYzQyNwaBoTAB/znaleziono-ruiny-drugiego-sfinksa-z-gizy.jpg"
       }, {
         "title": "City of the Dead",
         "description": "Cairo has the oldest and largest film and music industries in the Arab world",
@@ -424,10 +416,6 @@ const galleries = [
     "date": "2014-08-30T21:00:00.000Z",
     "photos": [
       {
-        "title": "Germany",
-        "description": "Camping in Germany, to discover all the country's marvels",
-        "url": "https://q-cf.bstatic.com/images/hotel/max1024x768/202/202114248.jpg"
-      }, {
         "title": "Essen",
         "description": "Camping is popular in Germany",
         "url": "https://q-cf.bstatic.com/images/hotel/max1024x768/597/59755294.jpg"
@@ -451,10 +439,6 @@ const galleries = [
         "title": "Mannheim",
         "description": "Camping in Germany, to discover all the country's marvels",
         "url": "https://www.camprest.com/thumbnails/images/2014/2/27/9e6fb759-29e1-41d4-86a9-28a5fd6e07d3.jpg/1024x0/scale/4217f3126bb2990622ab51e9e0939287eb362f00.jpg"
-      }, {
-        "title": "Chemnitz",
-        "description": "Camping is popular in Germany",
-        "url": "https://lastfm.freetls.fastly.net/i/u/arO/73e88e8216664dd8bd27d6e6ee8b556b"
       }, {
         "title": "Karlsruhe",
         "description": "With over 750 campsites and motorhome sites",

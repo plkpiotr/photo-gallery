@@ -30,8 +30,10 @@ const Container = styled.div`
 
 const Item = styled.div`
   position: relative;
-  flex: 0 0 100%; // TODO: Align 90%
+  flex: 0 0 100%;
   background-color: mediumvioletred;
+  white-space: nowrap;
+  text-align: center;
 `;
 
 const Dots = styled.div`
