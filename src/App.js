@@ -20,7 +20,7 @@ class App extends Component {
     isCheckedCategories: Object.fromEntries(categories.map(category => [category, true])),
   };
 
-  changeEvent = (event) => {
+  changeEvent = event => {
     let activeCategories = this.state.activeCategories;
     let selectedCategory = event.target.value;
     if (event.target.checked === true) {

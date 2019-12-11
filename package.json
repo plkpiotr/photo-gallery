@@ -8,7 +8,8 @@
     "react": "^16.12.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^3.3.0",
+    "react-scroll-into-view": "^1.5.3",
     "react-zoom-pan-pinch": "^1.4.1",
     "styled-components": "^4.4.1",
     "vanilla-lazyload": "^12.4.0"

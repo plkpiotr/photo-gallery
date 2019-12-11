@@ -24,7 +24,7 @@ const Button = styled.button`
   }
 `;
 
-const CarouselButtons = ({ selected, onClick }) => (
+const CarouselButtons = ({selected, onClick}) => (
   <Button
     className={selected ? " is-selected" : ""}
     onClick={onClick}>
