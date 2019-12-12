@@ -83,9 +83,9 @@ const Carousel = ({children}) => {
       <Dots>
         {scrollSnaps.map((snap, index) => (
           <CarouselButtons
+            key={index}
             selected={index === selectedIndex}
             onClick={() => scrollTo(index)}
-            key={index}
           />
         ))}
       </Dots>

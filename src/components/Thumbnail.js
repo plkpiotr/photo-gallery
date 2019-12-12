@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import ScrollTo from "react-scroll-into-view";
 
-const Thumbnail = styled.div`
+const Thumbnail = styled(ScrollTo)`
   margin: -14px;
   width: 12px;
   height: 12px;

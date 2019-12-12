@@ -47,6 +47,7 @@ const Map = ({activeCategories}) => (
             border={gallery.border}
             top={gallery.top}
             left={gallery.left}
+            selector={`#${gallery.index}`}
           />)}
       </Animation>
       <svg
