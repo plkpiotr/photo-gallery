@@ -44,8 +44,7 @@ class App extends Component {
       <ThemeProvider theme={theme}>
         <LazyImageProvider>
           <GlobalStyle/>
-          {categories.map(category =>
-            <label>
+          {categories.map(category => <label>
               <Input
                 key={category}
                 type="checkbox"
@@ -70,7 +69,7 @@ class App extends Component {
           >
             {galleries.map(gallery => (activeCategories.includes(gallery.border)) &&
               <Carousel>
-                {gallery.photos.map(photo => <>
+                {gallery.photos.map(photo => <div id={`${gallery.index}`}>
                   <LazyImage
                     key={photo.url}
                     src={photo.url}
@@ -78,7 +77,7 @@ class App extends Component {
                     aspectRatio={[16, 9]}
                   />
                   <figcaption>{photo.title}</figcaption>
-                </>)}
+                </div>)}
               </Carousel>)}
           </Animation>
         </LazyImageProvider>
