@@ -15,13 +15,12 @@ To do
 |World map (zoom and pan) as vector graphics|&check;|
 |Thumbnails of photos on the map (circles)|&check;|
 |Thumbnails of photos on the map (colorful borders)|&check;|
-|Photos filter (by category and by date)|&cross;|
+|Photos filter by category (in real time)|&check;|
 |Animation after selecting (fade effect)|&check;|
-|Photos with description and web address (URL) |&check;|
+|Photos with description and web address (URL)|&check;|
 |Own photos browsing system (lazy loading)|&check;|
 |Scroll to gallery after pressing a thumbnail|&check;|
 |Display only selected galleries below the map|&check;|
-|Invisible galleries without selecting one |&cross;|
 |Stylize each of components on the website|&cross;|
 |Create tooltips for photos and countries*|&cross;|
 

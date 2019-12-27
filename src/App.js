@@ -20,7 +20,7 @@ class App extends Component {
     isCheckedCategories: Object.fromEntries(categories.map(category => [category, true])),
   };
 
-  changeEvent = event => {
+  changeCategories = event => {
     let activeCategories = this.state.activeCategories;
     let selectedCategory = event.target.value;
     if (event.target.checked === true) {
@@ -50,7 +50,7 @@ class App extends Component {
                 type="checkbox"
                 name={category}
                 value={category}
-                onChange={this.changeEvent}
+                onChange={this.changeCategories}
                 checked={isCheckedCategories[category]}
               />
               {category}
@@ -69,15 +69,16 @@ class App extends Component {
           >
             {galleries.map(gallery => (activeCategories.includes(gallery.border)) &&
               <Carousel>
-                {gallery.photos.map(photo => <div id={`${gallery.index}`}>
-                  <LazyImage
-                    key={photo.url}
-                    src={photo.url}
-                    alt={photo.title}
-                    aspectRatio={[16, 9]}
-                  />
-                  <figcaption>{photo.title}</figcaption>
-                </div>)}
+                {gallery.photos.map(photo =>
+                  <>
+                    <figcaption id={`${gallery.index}`}>{photo.title}</figcaption>
+                    <LazyImage
+                      key={photo.url}
+                      src={photo.url}
+                      alt={photo.title}
+                      aspectRatio={[16, 9]}
+                    />
+                  </>)}
               </Carousel>)}
           </Animation>
         </LazyImageProvider>

@@ -5,7 +5,6 @@ const galleries = [
     "border": categories[2],
     "left": "150px",
     "top": "347px",
-    "date": "2016-12-22T20:45:00.000Z",
     "index": "mls-league",
     "photos": [
       {
@@ -47,7 +46,6 @@ const galleries = [
     "border": categories[0],
     "left": "477px",
     "top": "285px",
-    "date": "2018-11-22T21:30:00.000Z",
     "index": "classical-music",
     "photos": [
       {
@@ -89,7 +87,6 @@ const galleries = [
     "border": categories[0],
     "left": "261px",
     "top": "347px",
-    "date": "2018-11-22T21:30:00.000Z",
     "index": "eminem",
     "photos": [
       {
@@ -125,7 +122,6 @@ const galleries = [
     "border": categories[1],
     "left": "489px",
     "top": "315px",
-    "date": "2014-08-30T21:00:00.000Z",
     "index": "france",
     "photos": [
       {
@@ -167,7 +163,6 @@ const galleries = [
     "border": categories[1],
     "left": "565px",
     "top": "374px",
-    "date": "2011-11-23T18:21:30.000Z",
     "index": "egypt",
     "photos": [
       {
@@ -209,7 +204,6 @@ const galleries = [
     "border": categories[1],
     "left": "814px",
     "top": "369px",
-    "date": "2011-11-23T18:21:30.000Z",
     "index": "china",
     "photos": [
       {
@@ -251,7 +245,6 @@ const galleries = [
     "border": categories[2],
     "left": "552px",
     "top": "312px",
-    "date": "2014-08-30T21:00:00.000Z",
     "index": "romania",
     "photos": [
       {
@@ -293,7 +286,6 @@ const galleries = [
     "border": categories[2],
     "left": "472px",
     "top": "338px",
-    "date": "2014-08-30T21:00:00.000Z",
     "index": "spain",
     "photos": [
       {
@@ -335,7 +327,6 @@ const galleries = [
     "border": categories[4],
     "left": "509px",
     "top": "290px",
-    "date": "2014-08-30T21:00:00.000Z",
     "index": "germany",
     "photos": [
       {
@@ -371,7 +362,6 @@ const galleries = [
     "border": categories[3],
     "left": "537px",
     "top": "288px",
-    "date": "2013-07-30T20:00:00.000Z",
     "index": "poland",
     "photos": [
       {
@@ -413,7 +403,6 @@ const galleries = [
     "border": categories[3],
     "left": "140px",
     "top": "288px",
-    "date": "2013-07-30T20:00:00.000Z",
     "index": "canada-west",
     "photos": [
       {
@@ -455,7 +444,6 @@ const galleries = [
     "border": categories[3],
     "left": "852px",
     "top": "290px",
-    "date": "2012-06-22T18:45:00.000Z",
     "index": "russia",
     "photos": [
       {
@@ -497,7 +485,6 @@ const galleries = [
     "border": categories[4],
     "left": "270px",
     "top": "305px",
-    "date": "2012-06-22T18:45:00.000Z",
     "index": "canada-east",
     "photos": [
       {
@@ -539,7 +526,6 @@ const galleries = [
     "border": categories[4],
     "left": "505px",
     "top": "240px",
-    "date": "2012-06-22T18:45:00.000Z",
     "index": "norway",
     "photos": [
       {
@@ -581,7 +567,6 @@ const galleries = [
     "border": categories[4],
     "left": "574px",
     "top": "300px",
-    "date": "2012-06-22T18:45:00.000Z",
     "index": "ukraine",
     "photos": [
       {

@@ -8,7 +8,6 @@ const Wrapper = styled.a`
   margin: auto;
   min-width: 1017px;
   width: 50%;
-  cursor: crosshair;
 
   .land {
     fill: ${({theme}) => (theme.tertiary)};
