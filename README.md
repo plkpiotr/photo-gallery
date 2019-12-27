@@ -1,37 +1,46 @@
 # Photo gallery
 
+## Overview
+
+To do
+
+## Technology stack
+
+To do
+
 ## Requirements
 
 |Feature|Status|
 |---|---|
-|Map (zoom and pan)|&check;|
-|Thumbnails on the map (circles)|&check;|
-|Thumbnails on the map (colors)|&check;|
-|Photos filter (by category)|&check;|
-|Photos filter (by date)|&cross;|
-|Animation after selecting (fade)|&check;|
-|Scroll to gallery after pressing|&cross;|
-|Display only selected galleries|&cross;|
-|Photo contains title and description|&cross;|
-|All but one active photo are in grayscale|&cross;|
-|Own photos browsing system|&cross;|
-|Lazy loading (scroll)|&cross;|
-|Invisible galleries without selecting|&cross;|
-|Stylize all of styled components|&cross;|
+|World map (zoom and pan) as vector graphics|&check;|
+|Thumbnails of photos on the map (circles)|&check;|
+|Thumbnails of photos on the map (colorful borders)|&check;|
+|Photos filter (by category and by date)|&cross;|
+|Animation after selecting (fade effect)|&check;|
+|Photos with description and web address (URL) |&check;|
+|Own photos browsing system (lazy loading)|&check;|
+|Scroll to gallery after pressing a thumbnail|&check;|
+|Display only selected galleries below the map|&check;|
+|Invisible galleries without selecting one |&cross;|
+|Stylize each of components on the website|&cross;|
 |Create tooltips for photos and countries*|&cross;|
-|Add lodash loading*|&cross;|
 
-## How to install?
+## Quick start
+
+How to install?
 ```
 npm i
 ```
 
-## How to run?
+How to run?
 ```
 npm start
 ```
 
-## How to deploy?
-```
-npm run deploy
-```
+## Live preview
+
+To do
+
+## License
+
+Copyright © 2020, [Piotr Pałka](https://github.com/plkpiotr). Released under the [MIT License](LICENSE).
