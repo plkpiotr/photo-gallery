@@ -22,7 +22,6 @@ To do
 |Scroll to gallery after pressing a thumbnail|&check;|
 |Display only selected galleries below the map|&check;|
 |Stylize each of components on the website|&cross;|
-|Create tooltips for photos and countries*|&cross;|
 
 ## Quick start
 
