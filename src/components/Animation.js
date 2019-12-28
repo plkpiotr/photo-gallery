@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components';
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 const Animation = styled(ReactCSSTransitionGroup)`
   ${({galleries}) => (
