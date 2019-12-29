@@ -10,8 +10,51 @@ import galleries from 'constants/galleries';
 import LazyImage from 'components/LazyImage';
 import Animation from 'components/Animation';
 
+const Wrapper = styled.div`
+  justify-content: center;
+  display: flex;
+  // height: 100%;
+  width: 100%;
+`;
+
 const Input = styled.input`
-  // TODO: Stylize checkboxes
+  display: none;
+  
+  + span {
+    cursor: pointer;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: ${({theme}) => (theme.quaternary)};
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 2vw;
+    border: 5px solid ${({color}) => (color)};
+    box-sizing: border-box;
+    transition: all .4s;
+    
+    &::before {
+      content: 'ac_unit';
+      font-family: 'Material Icons', fantasy;
+      font-size: 50px;
+      color: ${({theme}) => (theme.secondary)};
+      transition: all .4s;
+    }
+  }
+  
+  &:checked {
+    + span {
+      border-width: 25px;
+      
+      &::before {
+        content: 'ac_unit';
+        font-family: 'Material Icons', fantasy;
+        font-size: 50px;
+        color: ${({theme}) => (theme.quaternary)};
+      }
+    }
+  }
 `;
 
 class App extends Component {
@@ -44,8 +87,10 @@ class App extends Component {
       <ThemeProvider theme={theme}>
         <LazyImageProvider>
           <GlobalStyle/>
+          <Wrapper>
           {categories.map(category => <label>
               <Input
+                color={category}
                 key={category}
                 type="checkbox"
                 name={category}
@@ -53,9 +98,10 @@ class App extends Component {
                 onChange={this.changeCategories}
                 checked={isCheckedCategories[category]}
               />
-              {category}
+            <span/>
             </label>
           )}
+          </Wrapper>
           <MapContainer activeCategories={activeCategories}/>
           <Animation
             galleries="true"
@@ -71,15 +117,17 @@ class App extends Component {
               <Carousel>
                 {gallery.photos.map(photo =>
                   <>
-                    <figcaption id={`${gallery.index}`}>{photo.title}</figcaption>
                     <LazyImage
                       key={photo.url}
                       src={photo.url}
                       alt={photo.title}
                       aspectRatio={[16, 9]}
                     />
-                  </>)}
-              </Carousel>)}
+                    <figcaption id={`${gallery.index}`}>{photo.title}</figcaption>
+                  </>
+                )}
+              </Carousel>
+            )}
           </Animation>
         </LazyImageProvider>
       </ThemeProvider>
