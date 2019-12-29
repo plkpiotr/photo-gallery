@@ -13,7 +13,6 @@ import Animation from 'components/Animation';
 const Wrapper = styled.div`
   justify-content: center;
   display: flex;
-  // height: 100%;
   width: 100%;
 `;
 
@@ -35,9 +34,9 @@ const Input = styled.input`
     transition: all .4s;
     
     &::before {
-      content: 'ac_unit';
+      content: '${({icon}) => (icon)}';
       font-family: 'Material Icons', fantasy;
-      font-size: 50px;
+      font-size: 45px;
       color: ${({theme}) => (theme.secondary)};
       transition: all .4s;
     }
@@ -45,12 +44,9 @@ const Input = styled.input`
   
   &:checked {
     + span {
-      border-width: 25px;
+      border-width: 30px;
       
       &::before {
-        content: 'ac_unit';
-        font-family: 'Material Icons', fantasy;
-        font-size: 50px;
         color: ${({theme}) => (theme.quaternary)};
       }
     }
@@ -59,8 +55,8 @@ const Input = styled.input`
 
 class App extends Component {
   state = {
-    activeCategories: [...categories],
-    isCheckedCategories: Object.fromEntries(categories.map(category => [category, true])),
+    activeCategories: categories.map(category => category.color),
+    isCheckedCategories: Object.fromEntries(categories.map(category => [category.color, true])),
   };
 
   changeCategories = event => {
@@ -88,19 +84,20 @@ class App extends Component {
         <LazyImageProvider>
           <GlobalStyle/>
           <Wrapper>
-          {categories.map(category => <label>
-              <Input
-                color={category}
-                key={category}
-                type="checkbox"
-                name={category}
-                value={category}
-                onChange={this.changeCategories}
-                checked={isCheckedCategories[category]}
-              />
-            <span/>
-            </label>
-          )}
+            {categories.map(category => <label>
+                <Input
+                  color={category.color}
+                  icon={category.icon}
+                  key={category.color}
+                  type="checkbox"
+                  name={category.color}
+                  value={category.color}
+                  onChange={this.changeCategories}
+                  checked={isCheckedCategories[category.color]}
+                />
+                <span/>
+              </label>
+            )}
           </Wrapper>
           <MapContainer activeCategories={activeCategories}/>
           <Animation

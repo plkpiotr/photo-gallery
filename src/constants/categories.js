@@ -1,9 +1,24 @@
 const categories = [
-  'hsl(235, 85%, 35%)',
-  'hsl(41, 65%, 70%)',
-  'hsl(235, 84%, 19%)',
-  'hsl(41, 70%, 86%)',
-  'hsl(159, 83%, 47%)',
+  {
+    "color" : "hsl(27, 74%, 55%)",
+    "icon" : "audiotrack"
+  },
+  {
+    "color" : "hsl(203, 100%, 37%)",
+    "icon" : "location_city"
+  },
+  {
+    "color" : "hsl(84, 57%, 51%)",
+    "icon" : "sports_soccer"
+  },
+  {
+    "color" : "hsl(200, 67%, 55%)",
+    "icon" : "ac_unit"
+  },
+  {
+    "color" : "hsl(52, 76%, 55%)",
+    "icon" : "beach_access"
+  },
 ];
 
 export default categories;

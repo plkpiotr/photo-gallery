@@ -2,7 +2,7 @@ import categories from 'constants/categories';
 
 const galleries = [
   {
-    "border": categories[2],
+    "border": categories[2].color,
     "left": "150px",
     "top": "347px",
     "index": "mls-league",
@@ -43,7 +43,7 @@ const galleries = [
       },
     ],
   }, {
-    "border": categories[0],
+    "border": categories[0].color,
     "left": "477px",
     "top": "285px",
     "index": "classical-music",
@@ -84,7 +84,7 @@ const galleries = [
       },
     ],
   }, {
-    "border": categories[0],
+    "border": categories[0].color,
     "left": "261px",
     "top": "347px",
     "index": "eminem",
@@ -119,7 +119,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[1],
+    "border": categories[1].color,
     "left": "489px",
     "top": "315px",
     "index": "france",
@@ -160,7 +160,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[1],
+    "border": categories[1].color,
     "left": "565px",
     "top": "374px",
     "index": "egypt",
@@ -201,7 +201,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[1],
+    "border": categories[1].color,
     "left": "814px",
     "top": "369px",
     "index": "china",
@@ -242,7 +242,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[2],
+    "border": categories[2].color,
     "left": "552px",
     "top": "312px",
     "index": "romania",
@@ -283,7 +283,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[2],
+    "border": categories[2].color,
     "left": "472px",
     "top": "338px",
     "index": "spain",
@@ -324,7 +324,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[4],
+    "border": categories[4].color,
     "left": "509px",
     "top": "290px",
     "index": "germany",
@@ -359,7 +359,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[3],
+    "border": categories[3].color,
     "left": "537px",
     "top": "288px",
     "index": "poland",
@@ -400,7 +400,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[3],
+    "border": categories[3].color,
     "left": "140px",
     "top": "288px",
     "index": "canada-west",
@@ -441,7 +441,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[3],
+    "border": categories[3].color,
     "left": "852px",
     "top": "290px",
     "index": "russia",
@@ -482,7 +482,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[4],
+    "border": categories[4].color,
     "left": "270px",
     "top": "305px",
     "index": "canada-east",
@@ -523,7 +523,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[4],
+    "border": categories[4].color,
     "left": "505px",
     "top": "240px",
     "index": "norway",
@@ -564,7 +564,7 @@ const galleries = [
       }
     ]
   }, {
-    "border": categories[4],
+    "border": categories[4].color,
     "left": "574px",
     "top": "300px",
     "index": "ukraine",

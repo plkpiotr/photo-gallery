@@ -42,13 +42,14 @@ const Map = ({activeCategories}) => (
         {galleries.filter(gallery => activeCategories
           .includes(gallery.border))
           .map(gallery => <Thumbnail
-            key={gallery.photos[0].url}
-            url={gallery.photos[0].url}
-            border={gallery.border}
-            top={gallery.top}
-            left={gallery.left}
-            selector={`#${gallery.index}`}
-          />)}
+              key={gallery.photos[0].url}
+              url={gallery.photos[0].url}
+              border={gallery.border}
+              top={gallery.top}
+              left={gallery.left}
+              selector={`#${gallery.index}`}
+            />
+          )}
       </Animation>
       <svg
         version="1.1"
