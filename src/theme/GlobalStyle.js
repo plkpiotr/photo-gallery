@@ -5,8 +5,6 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
     background-color: ${({theme}) => (theme.quaternary)};
     margin: 0;
     box-sizing: border-box;

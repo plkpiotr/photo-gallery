@@ -8,12 +8,18 @@ const Wrapper = styled.div`
   min-width: 30vw;
   max-width: 30vw;
   margin: 2vh auto;
-  background-color: violet;
+  background-color: ${({color}) => (color)};
+  color: ${({theme}) => (theme.white)};
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 27px;
 `;
 
 const Viewport = styled(EmblaCarouselReact)`
   width: 100%;
   overflow: hidden;
+  border-radius: 27px 27px 0 0;
   
   &.is-draggable {
     cursor: grab;
@@ -31,7 +37,7 @@ const Container = styled.div`
 const Item = styled.div`
   position: relative;
   flex: 0 0 100%;
-  background-color: mediumvioletred;
+  background-color: ${({color}) => (color)};
   white-space: nowrap;
   text-align: center;
 `;
@@ -41,10 +47,9 @@ const Dots = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 1vh;
 `;
 
-const Carousel = ({children}) => {
+const Carousel = ({children, color}) => {
   const [carousel, initCarousel] = useState(null);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState([]);
@@ -66,7 +71,7 @@ const Carousel = ({children}) => {
   }, [carousel]);
 
   return (
-    <Wrapper>
+    <Wrapper color={color}>
       <Viewport
         emblaRef={initCarousel}
         options={{loop: false}}
@@ -74,7 +79,10 @@ const Carousel = ({children}) => {
       >
         <Container>
           {children.map((child, index) => (
-            <Item key={index}>
+            <Item
+              color={color}
+              key={index}
+            >
               {child}
             </Item>
           ))}

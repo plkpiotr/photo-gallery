@@ -41,7 +41,8 @@ const Map = ({activeCategories}) => (
       >
         {galleries.filter(gallery => activeCategories
           .includes(gallery.border))
-          .map(gallery => <Thumbnail
+          .map(gallery => (
+            <Thumbnail
               key={gallery.photos[0].url}
               url={gallery.photos[0].url}
               border={gallery.border}
@@ -49,7 +50,7 @@ const Map = ({activeCategories}) => (
               left={gallery.left}
               selector={`#${gallery.index}`}
             />
-          )}
+          ))}
       </Animation>
       <svg
         version="1.1"

@@ -14,9 +14,6 @@ const galleries = [
         "title": "Trondheim",
         "url": "https://cdn.theatlantic.com/assets/media/img/photo/2017/09/landscapes-of-norway/n03_844052000/main_900.jpg?1507146797"
       }, {
-        "title": "Oslo",
-        "url": "https://i.pinimg.com/originals/93/21/46/93214638931d0ba1bbb8278b9195b4e1.jpg"
-      }, {
         "title": "Stavanger",
         "url": "https://jakubpolomski.com/wp-content/uploads/2018/01/Norway-Landscape-Photo-Jakub-Polomski-13NOR0462.jpg"
       }, {
@@ -28,9 +25,6 @@ const galleries = [
       }, {
         "title": "Haugesund",
         "url": "https://media.holidayme.com/wp-content/uploads/2015/06/30150725/Holidayme_Amazing-Norway-Pics_Geiranger-Fjord_Banner_250886011.jpg"
-      }, {
-        "title": "Kirkenes",
-        "url": "https://media.pixcove.com/H/9/2/Norway-Landscapes-Nature-Sandvinsvatnet-See-Sky-Fr-1452.jpg"
       }, {
         "title": "Flam",
         "url": "https://petapixel.com/assets/uploads/2014/12/norway_landscape_anderslonnfeldt_01.jpg"
@@ -52,6 +46,9 @@ const galleries = [
         "title": "Stan",
         "url": "https://media.cdn.setlistfm.com/news/2019-02/1551380052250/Eminem_KevinMazur.jpg"
       }, {
+        "title": "Framed",
+        "url": "https://image.businessinsider.com/5b88ccb689c8a11d008b5b4a?width=1100&format=jpeg&auto=webp"
+      }, {
         "title": "Legacy",
         "url": "https://pmcvariety.files.wordpress.com/2017/07/eminem.png?w=1000"
       }, {
@@ -72,9 +69,6 @@ const galleries = [
       }, {
         "title": "Castle",
         "url": "https://cdn.galleries.smcloud.net/t/galleries/gf-wB1p-HjKN-iHx9_eminem-664x442-nocrop.jpg"
-      }, {
-        "title": "Framed",
-        "url": "https://image.businessinsider.com/5b88ccb689c8a11d008b5b4a?width=1100&format=jpeg&auto=webp"
       }
     ]
   }, {
@@ -96,9 +90,6 @@ const galleries = [
         "title": "Sacre Coeur",
         "url": "https://traveluto.com/wp-content/uploads/2016/03/arc_de_triomphe.jpg"
       }, {
-        "title": "Louvre Museum",
-        "url": "https://www.kids-world-travel-guide.com/images/eiffeltower_shutterstock_125112029-2.jpg"
-      }, {
         "title": "Montmartre",
         "url": "https://www.touropia.com/gfx/b/2013/02/sacre_coeur.jpg"
       }, {
@@ -110,9 +101,6 @@ const galleries = [
       }, {
         "title": "Luxembourg Gardens",
         "url": "https://www.starpik.com/wp-content/uploads/2018/12/The-Palace-of-Fontainebleau-at-daylight.-View-from-bottom.-France-landmarks.jpg"
-      }, {
-        "title": "Notre-Dame",
-        "url": "https://i0.wp.com/frenchmoments.eu/wp-content/uploads/2013/06/Panth%C3%A9on-Paris-%C2%A9-French-Moments.jpg?resize=702%2C470&ssl=1"
       }, {
         "title": "Musee d'Orsay",
         "url": "https://d39gusjpdm7p1o.cloudfront.net/data/layout_grouping/static_page_step/20784_a330628091ede7eb1548d6cda58e0357.jpg?ver=1477297804"
@@ -131,17 +119,11 @@ const galleries = [
         "title": "Atlanta United FC",
         "url": "https://league-mp7static.mlsdigital.net/styles/image_default/s3/images/USATSI_13650874.jpg?mt2sYUSFaWs21NPVir1vd2EsJYUvdyv3&itok=yVDdLpAY&c=8f777dbcb0ef526866e07ce249d3a2b3",
       }, {
-        "title": "Chicago Fire",
-        "url": "https://www.casino.org/news/wp-content/uploads/2014/07/Soccer.jpg",
-      }, {
         "title": "FC Cincinnati",
         "url": "https://league-mp7static.mlsdigital.net/styles/image_default/s3/images/Michael%20Bradley,%20Alan%20Pulido%20chase%20ball-TOR-CVG-4.17.18.jpg?ATbfRGhIYcnAyoCc6KsGh_EWqx84haYU&itok=XmlP1ast&c=c858ba880a4594103dd78382e7edf9ba",
       }, {
         "title": "D.C. United",
         "url": "https://img.bleacherreport.net/img/images/photos/003/839/080/hi-res-e03f6dd212232b46174f7edff4af4154_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
-      }, {
-        "title": "Montreal Impact",
-        "url": "https://s.marketwatch.com/public/resources/images/MW-EA372_crew_r_MG_20151202164506.jpg",
       }, {
         "title": "New York City FC",
         "url": "https://arizonasports.com/wp-content/uploads/2019/04/rising-edit-620x370.jpg",
@@ -166,6 +148,9 @@ const galleries = [
     "index": "poland",
     "photos": [
       {
+        "title": "Karpacz",
+        "url": "https://through-lisas-eyes.com/wp-content/uploads/2018/02/poland-snowboarding-skiing-region-szrenica.png"
+      }, {
         "title": "Białka Tatrzańska",
         "url": "https://ski-resort-stats.com/wp-content/uploads/2017/09/Poland-ski-resorts.jpg"
       }, {
@@ -184,20 +169,11 @@ const galleries = [
         "title": "Czarny Groń",
         "url": "https://img5.onthesnow.com/image/gg/50/504682.jpg"
       }, {
-        "title": "Zieleniec",
-        "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/e1/9a/8f/kotelnica-bialczanska.jpg"
-      }, {
         "title": "Dwie Doliny",
         "url": "https://www.skiresort.info/typo3temp/_processed_/3c/cc/c3/3c/c14742927e.jpg"
       }, {
         "title": "Muszyna",
         "url": "https://polska.pl/media/public/72/57/d332fd7420293107eb7a5465550.jpg__768x600_q85_crop-smart_subsampling-2_upscale.jpg"
-      }, {
-        "title": "Wierchomla",
-        "url": "https://www.skiresort.info/typo3temp/_processed_/17/70/06/68/88b6e9ed07.jpg"
-      }, {
-        "title": "Karpacz",
-        "url": "https://through-lisas-eyes.com/wp-content/uploads/2018/02/poland-snowboarding-skiing-region-szrenica.png"
       }
     ]
   }, {
@@ -225,9 +201,6 @@ const galleries = [
         "title": "Dubovy Gai",
         "url": "https://ukrainetrek.com/blog/wp-content/uploads/2011/12/ukrainian-carpathians-landscape-2.jpg"
       }, {
-        "title": "Skifskyi Stan",
-        "url": "https://media.pixcove.com/P/6/7/Ukraine-Landscapes-Nature-Landscape-Wetland-Scenic-8028.jpg"
-      }, {
         "title": "Zaporizkyj Oak",
         "url": "https://www.worldatlas.com/r/w728-h425-c728x425/upload/77/a6/6b/shutterstock-445563247-min.jpg"
       }, {
@@ -236,9 +209,6 @@ const galleries = [
       }, {
         "title": "Staryy Dnipro",
         "url": "http://www.krajoznawcy.info.pl/wp-content/uploads/2016/05/rejs-dniestrem-9-600x450.jpg"
-      }, {
-        "title": "Festyvalna",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ukraine_-_Dniester_river_by_Khotyn.jpg"
       }
     ]
   }, {
@@ -262,12 +232,6 @@ const galleries = [
       }, {
         "title": "Mussorgsky",
         "url": "https://media.imz.at/imzfiles/466260-slideshow-tchaikovsky-violin-concerto-shostakovich-symphony-no-5-vengerov-shanghai-symphony-orchestra-yu-7822230.jpg"
-      }, {
-        "title": "Scriabin",
-        "url": "https://andantemoderato.com/wp-content/uploads/2015/02/Shostakovich-Symphony-No-10-Gergiev-BBC-Proms-2013-672x372.jpg"
-      }, {
-        "title": "Stravinsky",
-        "url": "https://andywildingfmr.files.wordpress.com/2017/02/joanna-macgregor-arjan-tien-ctpo-prokofiev-shostakovich-stravinsky-classicalconcertreview.jpg?w=1200"
       }, {
         "title": "Borodin",
         "url": "http://thumbor-prod-us-east-1.photo.aws.arc.pub/EO596j-9rrrN0S2PnseSBTexjNE=/arc-anglerfish-arc2-prod-dmn/public/MNDN55RXDKAODTDPEBDONOBXIE.jpg"
@@ -295,17 +259,11 @@ const galleries = [
         "title": "Egypt",
         "url": "https://www.washingtonpost.com/resizer/b6pBeKU9KIj_nkdEQ7Fzepv2N1A=/767x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WMNZAZHX54I6TDHQJTEZ65GRE4.jpg"
       }, {
-        "title": "Modern era",
-        "url": "https://ichef.bbci.co.uk/news/660/cpsprodpb/94AC/production/_109206083_gettyimages-1133412587.jpg"
-      }, {
         "title": "Giza Necropolis",
         "url": "https://www.sachamber.org/wp-content/uploads/2019/08/Cairo.jpg"
       }, {
         "title": "Egyptian Museum",
         "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/78/0a.jpg"
-      }, {
-        "title": "Khan el-Khalili",
-        "url": "https://cdn.civitatis.com/egipto/el-cairo/cairo-piramides-1-dia-grid.jpg"
       }, {
         "title": "Pyramid of Djoser",
         "url": "https://www.meed.com/wp-content/uploads/2019/09/shutterstock_1481228141-780x520.gif"
@@ -356,12 +314,6 @@ const galleries = [
       }, {
         "title": "Hermannstadt",
         "url": "https://soccergator.io/wp-content/uploads/post-media/11%20Best%20Stadiums%20in%20Germany%20(National%20and_or%20Club%20Stadiums)/Allianz-Arena-Bayern-Munich.jpeg"
-      }, {
-        "title": "Gaz Metan",
-        "url": "https://www.stadiumguide.com/wp-content/gallery/veltins/veltins8.JPG"
-      }, {
-        "title": "Dinamo",
-        "url": "https://www.stadiumguide.com/wp-content/gallery/veltins/veltins5.JPG"
       }
     ]
   }, {
@@ -383,9 +335,6 @@ const galleries = [
         "title": "Zolotoy Rog",
         "url": "http://www.boardrap.com/wp-content/uploads/2018/01/Kamchatka-surfing-snowboarding-russia-trip-900x675.jpg"
       }, {
-        "title": "Vladivostok Fortress",
-        "url": "http://sputnikimages.com/images/0001/4709/18/000147091881_RIAN-ID-5831268.jpg"
-      }, {
         "title": "Primorskiy Oceanarium",
         "url": "https://caspiannews.com/media/caspian_news/all_original_photos/1542179309_699667_1542179156_2872772rosa_khutor.jpg"
       }, {
@@ -397,9 +346,6 @@ const galleries = [
       }, {
         "title": "Shamora",
         "url": "https://ak8.picdn.net/shutterstock/videos/1022816068/thumb/8.jpg"
-      }, {
-        "title": "Bukhta",
-        "url": "http://sputnikimages.com/images/0001/3852/48/000138524803_RIAN-ID-5751031.jpg"
       }, {
         "title": "Pokrovsky park",
         "url": "https://image.redbull.com/rbcom/052/2017-10-29/40e69306-fbb5-41b9-a7e0-a72156e5498c/0012/0/0/0/3456/5184/1050/1/method-movie-dasha-nosova-shooting-sparrow-knox.jpg"
@@ -453,12 +399,6 @@ const galleries = [
         "title": "Beijing",
         "url": "https://www.planetware.com/photos-large/CHN/china-beijing-temple-of-heaven.jpg"
       }, {
-        "title": "China",
-        "url": "https://www.topchinatravel.com/pic/china-tour-pic/beijing/bird-nest-01.jpg"
-      }, {
-        "title": "Summer Palace",
-        "url": "https://www.touropia.com/gfx/d/beautiful-palaces-in-the-world/forbidden_city.jpg?v=7aeb0bf698335167c219310493b26ace"
-      }, {
         "title": "Temple of Heaven",
         "url": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/China/Beijing/beihai-park-beijing-attractions.jpg"
       }, {
@@ -506,12 +446,6 @@ const galleries = [
         "title": "Levante",
         "url": "https://soccerjoint.files.wordpress.com/2012/06/1814221_w2.jpg"
       }, {
-        "title": "Alaves",
-        "url": "https://data1.ibtimes.co.in/cache-img-0-450/en/full/611910/imgmichel-salgado.jpg"
-      }, {
-        "title": "Osasuna",
-        "url": "https://s1.reutersmedia.net/resources/r/?m=02&d=20130608&t=2&i=739451734&r=CBRE9571PQM00&w=1280"
-      }, {
         "title": "Eibar",
         "url": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2016/09/05/14731084545305.jpg"
       }, {
@@ -531,9 +465,6 @@ const galleries = [
       {
         "title": "Canada Place",
         "url": "https://www.travelcounsellors.co.uk/media/2929157/skiing-in-whistler-canada.jpg"
-      }, {
-        "title": "Canada",
-        "url": "https://www.denverpost.com/wp-content/uploads/2018/01/gus-kenworthy-snowmass.jpg?w=537"
       }, {
         "title": "British Colombia",
         "url": "https://www.snowmagazine.com/media/reviews/photos/original/cd/50/a6/10-best-ski-resorts-in-canada-29-1482413092.jpg"
@@ -556,9 +487,6 @@ const galleries = [
         "title": "English Bay",
         "url": "https://cdn.whistler.com/s3/images/og/whistler-skiing-winter.jpg"
       }, {
-        "title": "Botanical Garden",
-        "url": "https://cdn.travel2next.com/wp-content/uploads/fernie-ski-resort-6-696x464.jpg"
-      }, {
         "title": "Richmond",
         "url": "https://www.tripsavvy.com/thmb/blvmEtshnI6M_hSywNAMSJVh8Gs=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/mid-adult-man-skiing-down-mountain--golden--british-columbia--canada-480984215-5b50d2f2c9e77c005b1b87be.jpg"
       }
@@ -575,9 +503,6 @@ const galleries = [
       }, {
         "title": "Toronto",
         "url": "https://workingholidayincanada.com/wp-content/uploads/2016/05/mcdonald_crk_DSC_5795-1050x700.jpg"
-      }, {
-        "title": "Alberta",
-        "url": "https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2019/01/04085847/iStock-465391659.jpg"
       }, {
         "title": "CN Tower",
         "url": "https://digimarconcanada.ca/wp-content/uploads/2015/09/Skyline_of_Toronto_viewed_from_Harbour.jpg"
@@ -599,9 +524,6 @@ const galleries = [
       }, {
         "title": "Provincial Park",
         "url": "https://www.rollingstone.com/wp-content/uploads/2019/04/CanadaCamping-cool.jpg?w=1024"
-      }, {
-        "title": "Ripley's Aquarium",
-        "url": "https://i1.wp.com/www.alltherooms.com/blog/wp-content/uploads/2018/08/Feature-Best-of-Camping-in-Canada-By-noppawan-leecharoenphong.jpg?fit=1000%2C667&ssl=1"
       }
     ]
   }

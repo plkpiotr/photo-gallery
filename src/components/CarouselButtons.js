@@ -7,19 +7,23 @@ const Button = styled.button`
   background-color: transparent;
   cursor: pointer;
   width: 2vw;
-  min-height: 4vh;
   border: 0;
   transition: .4s ease-in-out;
+  padding: 0;
+  outline: none;
   
   &:after {
     counter-increment: section;
-    background-color: gold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: ${({theme}) => (theme.white)};
     width: 100%;
     content: ""counter(section)"";  
   }
   
   &.is-selected:after {
-    background-color: aquamarine;
+    background-color: ${({theme}) => (theme.secondary)};
     transition: .4s ease-in-out;
   }
 `;

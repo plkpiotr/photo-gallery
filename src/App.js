@@ -84,7 +84,8 @@ class App extends Component {
         <LazyImageProvider>
           <GlobalStyle/>
           <Wrapper>
-            {categories.map(category => <label>
+            {categories.map(category => (
+              <label>
                 <Input
                   color={category.color}
                   icon={category.icon}
@@ -97,7 +98,7 @@ class App extends Component {
                 />
                 <span/>
               </label>
-            )}
+            ))}
           </Wrapper>
           <MapContainer activeCategories={activeCategories}/>
           <Animation
@@ -111,18 +112,18 @@ class App extends Component {
             transitionLeaveTimeout={0}
           >
             {galleries.map(gallery => (activeCategories.includes(gallery.border)) &&
-              <Carousel>
-                {gallery.photos.map(photo =>
+              <Carousel color={gallery.border}>
+                {gallery.photos.map(photo => (
                   <>
+                    <figcaption id={`${gallery.index}`}>{photo.title}</figcaption>
                     <LazyImage
                       key={photo.url}
                       src={photo.url}
                       alt={photo.title}
                       aspectRatio={[16, 9]}
                     />
-                    <figcaption id={`${gallery.index}`}>{photo.title}</figcaption>
                   </>
-                )}
+                ))}
               </Carousel>
             )}
           </Animation>
