@@ -1,7 +1,7 @@
+import {TransformComponent, TransformWrapper} from 'react-zoom-pan-pinch';
 import React from 'react';
 import styled from 'styled-components';
-import {TransformComponent, TransformWrapper} from 'react-zoom-pan-pinch';
-import Map from 'components/Map';
+import Map from 'components/Map/Map';
 
 const Wrapper = styled.div`
   background-color: ${({theme}) => (theme.white)};
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 
 const MapContainer = ({activeCategories}) => (
   <Wrapper>
-    <TransformWrapper defaultScale={2.1}>
+    <TransformWrapper defaultScale={2.2}>
       <TransformComponent>
         <Map activeCategories={activeCategories}/>
       </TransformComponent>

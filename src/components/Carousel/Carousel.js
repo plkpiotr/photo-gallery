@@ -1,26 +1,26 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import styled from 'styled-components';
 import EmblaCarouselReact from 'embla-carousel-react';
-import CarouselButtons from 'components/CarouselButtons';
+import CarouselButton from 'components/Carousel/CarouselButton';
 
 const Wrapper = styled.div`
   flex: 1;
   min-width: 30vw;
   max-width: 30vw;
-  margin: 2vh auto;
+  margin: 3vh auto;
   background-color: ${({color}) => (color)};
   color: ${({theme}) => (theme.white)};
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 27px;
+  -webkit-box-shadow: 5px 5px 17px 0 rgba(0,0,0,0.52); 
+  box-shadow: 5px 5px 17px 0 rgba(0,0,0,0.52);
 `;
 
 const Viewport = styled(EmblaCarouselReact)`
   width: 100%;
   overflow: hidden;
-  border-radius: 27px 27px 0 0;
-  
+    
   &.is-draggable {
     cursor: grab;
   }
@@ -42,7 +42,7 @@ const Item = styled.div`
   text-align: center;
 `;
 
-const Dots = styled.div`
+const Panel = styled.div`
   counter-reset: section;
   display: flex;
   flex-wrap: wrap;
@@ -88,15 +88,15 @@ const Carousel = ({children, color}) => {
           ))}
         </Container>
       </Viewport>
-      <Dots>
+      <Panel>
         {scrollSnaps.map((snap, index) => (
-          <CarouselButtons
+          <CarouselButton
             key={index}
             selected={index === selectedIndex}
             onClick={() => scrollTo(index)}
           />
         ))}
-      </Dots>
+      </Panel>
     </Wrapper>
   );
 };

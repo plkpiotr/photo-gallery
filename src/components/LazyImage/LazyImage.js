@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
-import {withLazyImageContext} from './LazyImageContext';
-import './lazyImage.css';
+import {withLazyImageContext} from 'components/LazyImage/LazyImageContext';
+import 'components/LazyImage/lazyImage.css';
 
 const LazyImage = ({src, aspectRatio, lazyLoad}) => {
   const paddingTop = `${(aspectRatio[1] / aspectRatio[0]) * 100}%`;

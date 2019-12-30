@@ -28,11 +28,11 @@ const Button = styled.button`
   }
 `;
 
-const CarouselButtons = ({selected, onClick}) => (
+const CarouselButton = ({selected, onClick}) => (
   <Button
     className={selected ? " is-selected" : ""}
     onClick={onClick}>
   </Button>
 );
 
-export default CarouselButtons;
+export default CarouselButton;

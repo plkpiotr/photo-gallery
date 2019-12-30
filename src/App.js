@@ -1,56 +1,20 @@
 import React, {Component} from 'react';
-import GlobalStyle from 'theme/GlobalStyle';
+import {LazyImageProvider} from 'components/LazyImage/LazyImageContext';
 import styled, {ThemeProvider} from 'styled-components';
+import GlobalStyle from 'theme/GlobalStyle';
 import theme from 'theme/theme';
-import MapContainer from 'components/MapContainer';
+import MapContainer from 'components/Map/MapContainer';
 import categories from 'constants/categories';
-import Carousel from 'components/Carousel';
-import {LazyImageProvider} from 'components/LazyImageContext';
+import Carousel from 'components/Carousel/Carousel';
 import galleries from 'constants/galleries';
-import LazyImage from 'components/LazyImage';
-import Animation from 'components/Animation';
+import LazyImage from 'components/LazyImage/LazyImage';
+import Animation from 'components/Animation/Animation';
+import Checkbox from 'components/Checkbox/Checkbox';
 
 const Wrapper = styled.div`
   justify-content: center;
   display: flex;
   width: 100%;
-`;
-
-const Input = styled.input`
-  display: none;
-  
-  + span {
-    cursor: pointer;
-    display: flex;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    background: ${({theme}) => (theme.quaternary)};
-    align-items: center;
-    justify-content: center;
-    margin: 3vh 2vw;
-    border: 5px solid ${({color}) => (color)};
-    box-sizing: border-box;
-    transition: all .4s;
-    
-    &::before {
-      content: '${({icon}) => (icon)}';
-      font-family: 'Material Icons', fantasy;
-      font-size: 45px;
-      color: ${({theme}) => (theme.secondary)};
-      transition: all .4s;
-    }
-  }
-  
-  &:checked {
-    + span {
-      border-width: 30px;
-      
-      &::before {
-        color: ${({theme}) => (theme.quaternary)};
-      }
-    }
-  }
 `;
 
 class App extends Component {
@@ -86,7 +50,7 @@ class App extends Component {
           <Wrapper>
             {categories.map(category => (
               <label>
-                <Input
+                <Checkbox
                   color={category.color}
                   icon={category.icon}
                   key={category.color}

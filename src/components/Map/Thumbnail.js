@@ -13,6 +13,8 @@ const Thumbnail = styled(ScrollTo)`
   top: ${({top}) => (top)};
   left: ${({left}) => (left)};
   transition: .4s ease-in-out;
+  -webkit-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.6); 
+  box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.6);
   
   &:hover {
     cursor: pointer;

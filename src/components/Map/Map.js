@@ -1,7 +1,7 @@
 import React from 'react';
-import Animation from 'components/Animation';
+import Animation from 'components/Animation/Animation';
 import styled from 'styled-components';
-import Thumbnail from 'components/Thumbnail';
+import Thumbnail from 'components/Map/Thumbnail';
 import galleries from 'constants/galleries';
 
 const Wrapper = styled.a`
