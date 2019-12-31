@@ -1,7 +1,5 @@
 # Photo gallery
 
-![photo-gallery](https://user-images.githubusercontent.com/21959354/71565862-06cf8f80-2ab3-11ea-9500-ab938a0e1d5f.png)
-
 ## Requirements
 
 |Feature|Status|
@@ -17,9 +15,13 @@
 |Display only selected galleries below the map|&check;|
 |Stylize each of components on the website|&check;|
 
+## Screenshot
+
+![photo-gallery](https://user-images.githubusercontent.com/21959354/71565862-06cf8f80-2ab3-11ea-9500-ab938a0e1d5f.png)
+
 ## Live preview
 
-The project was deployed on GitHub Pages: [plkpiotr.github.io/photo-gallery](https://plkpiotr.github.io/photo-gallery/)
+This project was deployed on GitHub Pages: [plkpiotr.github.io/photo-gallery](https://plkpiotr.github.io/photo-gallery/)
 
 ## Technology stack
 
