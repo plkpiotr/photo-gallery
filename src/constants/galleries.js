@@ -254,7 +254,7 @@ const galleries = [
     "photos": [
       {
         "title": "Cairo",
-        "url": "https://cdn.ceoworld.biz/wp-content/uploads/2019/09/Cairo-Egypt.jpg"
+        "url": "https://wallpaperstock.net/wallpapers/thumbs1/48289wide.jpg"
       }, {
         "title": "Egypt",
         "url": "https://www.washingtonpost.com/resizer/b6pBeKU9KIj_nkdEQ7Fzepv2N1A=/767x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WMNZAZHX54I6TDHQJTEZ65GRE4.jpg"
