@@ -15,7 +15,7 @@ const galleries = [
         "url": "https://cdn.theatlantic.com/assets/media/img/photo/2017/09/landscapes-of-norway/n03_844052000/main_900.jpg?1507146797"
       }, {
         "title": "Stavanger",
-        "url": "https://jakubpolomski.com/wp-content/uploads/2018/01/Norway-Landscape-Photo-Jakub-Polomski-13NOR0462.jpg"
+        "url": "https://cdn.kimkim.com/files/a/article_images/images/5d72e8b4d57898724f8350a4de54dae098172073/big-49ad9456a19ecb3e6ed3f11b682132b0.jpg"
       }, {
         "title": "Alesund",
         "url": "https://photophique.com/wp-content/uploads/2014/04/norway-landscape-photography1.jpg"
@@ -24,7 +24,7 @@ const galleries = [
         "url": "https://cdn.theatlantic.com/assets/media/img/photo/2017/09/landscapes-of-norway/n11_Storfjorden/main_900.jpg?1507152663"
       }, {
         "title": "Haugesund",
-        "url": "https://media.holidayme.com/wp-content/uploads/2015/06/30150725/Holidayme_Amazing-Norway-Pics_Geiranger-Fjord_Banner_250886011.jpg"
+        "url": "https://www.avontuura.com/wp-content/uploads/2018/11/46254-preview_low_3469-1_46254_sc_v2com.jpg"
       }, {
         "title": "Flam",
         "url": "https://petapixel.com/assets/uploads/2014/12/norway_landscape_anderslonnfeldt_01.jpg"
@@ -50,7 +50,7 @@ const galleries = [
         "url": "https://image.businessinsider.com/5b88ccb689c8a11d008b5b4a?width=1100&format=jpeg&auto=webp"
       }, {
         "title": "Legacy",
-        "url": "https://pmcvariety.files.wordpress.com/2017/07/eminem.png?w=1000"
+        "url": "https://i2-prod.dailyrecord.co.uk/incoming/article9998830.ece/ALTERNATES/s615/GP19477279.jpg"
       }, {
         "title": "Lose Yourself",
         "url": "https://www.eminem.pro/wp-content/uploads/2018/07/JD-070218-STOCKHOLM-APPROVED-5DM49014-1-550x413.jpg"
@@ -138,7 +138,7 @@ const galleries = [
         "url": "https://assets.website-files.com/58a374e4aa68ad20244d5830/5be5f13e163ddad773b572f5_10966984_web1_MLS-Crew-Red-Bulls-Soccer-1.jpg",
       }, {
         "title": "Seattle Sounders FC",
-        "url": "http://thumbor-prod-us-east-1.photo.aws.arc.pub/jTr_8GFdGy9E90_fbx6sqfk3FS4=/arc-anglerfish-arc2-prod-dmn/public/753FPZRGAUPPX7URUCRAGFJDTU.jpg",
+        "url": "https://deadline.com/wp-content/uploads/2020/06/mls.jpg?w=681&h=383&crop=1",
       },
     ],
   }, {
@@ -184,7 +184,7 @@ const galleries = [
     "photos": [
       {
         "title": "Transcarpathian",
-        "url": "https://www.regent-holidays.co.uk/upload-files/product-tours-gallery/highlights-of-western-ukraine_1.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/View_of_Kostryna%2C_Zakarpatska_oblast.jpg"
       }, {
         "title": "Zakarpattia",
         "url": "https://ukrainetrek.com/blog/wp-content/uploads/2012/09/zakarpattia-region-ukraine-landscape-1.jpg"
@@ -205,10 +205,10 @@ const galleries = [
         "url": "https://www.worldatlas.com/r/w728-h425-c728x425/upload/77/a6/6b/shutterstock-445563247-min.jpg"
       }, {
         "title": "Krasny Stan",
-        "url": "https://tripdude.in/admin/pacakgeimages/dnister2.jpg"
+        "url": "https://live.staticflickr.com/4301/36118030685_a39c9c5251_b.jpg"
       }, {
         "title": "Staryy Dnipro",
-        "url": "http://www.krajoznawcy.info.pl/wp-content/uploads/2016/05/rejs-dniestrem-9-600x450.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Zakarpatska-Oblast.JPG"
       }
     ]
   }, {
@@ -234,7 +234,7 @@ const galleries = [
         "url": "https://media.imz.at/imzfiles/466260-slideshow-tchaikovsky-violin-concerto-shostakovich-symphony-no-5-vengerov-shanghai-symphony-orchestra-yu-7822230.jpg"
       }, {
         "title": "Borodin",
-        "url": "http://thumbor-prod-us-east-1.photo.aws.arc.pub/EO596j-9rrrN0S2PnseSBTexjNE=/arc-anglerfish-arc2-prod-dmn/public/MNDN55RXDKAODTDPEBDONOBXIE.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/RNO-2018-2_credit_Sergei-Demidov.jpg"
       }, {
         "title": "Balakirev",
         "url": "https://whyathens.com/wp-content/uploads/2018/02/Tchaikovsky-Symphony-Orchestra-Odeon-Athens-Festival-1024x512.jpg"
@@ -266,7 +266,7 @@ const galleries = [
         "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/78/0a.jpg"
       }, {
         "title": "Pyramid of Djoser",
-        "url": "https://www.meed.com/wp-content/uploads/2019/09/shutterstock_1481228141-780x520.gif"
+        "url": "https://luxurytourseg.com/blog/wp-content/uploads/2020/02/egpt-pyramids.jpg"
       }, {
         "title": "Luxor",
         "url": "https://breathewithus.com/wp-content/uploads/2017/01/cairo-citadel-view-710x399.jpg"
@@ -292,7 +292,7 @@ const galleries = [
         "url": "https://one37pm.imgix.net/one37pm-editor-dev-images/s3fs-public/user-images/2019-03/Stadium-of-Light-mobile.jpg?ch=Width,DPR&auto=compress&q=60&w=412&fit=clip&dpr=2"
       }, {
         "title": "Astra Giurgiu",
-        "url": "https://amp.businessinsider.com/images/572d8464dd08956c3e8b4579-750-563.jpg"
+        "url": "https://images.squarespace-cdn.com/content/v1/56216666e4b07de840c45ded/1588797864277-QB8QHNEASC6GQAJVXW5W/ke17ZwdGBToddI8pDm48kBZw6jF4_OvU-ddo_vwqGhp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ub61YCrK70I7JIpWiI8ho4Yi1WvVNQtDE81xuRbL1MFKm0sD-Bab7E9MY8W31A7zMQ/CSKA-Sofia-Ludogorets-Razgrad-Bulgarian-Army-Stadium"
       }, {
         "title": "Steaua",
         "url": "https://image.businessinsider.com/572d8464dd08956c3e8b4586?width=1200&format=jpeg"
@@ -348,7 +348,7 @@ const galleries = [
         "url": "https://ak8.picdn.net/shutterstock/videos/1022816068/thumb/8.jpg"
       }, {
         "title": "Pokrovsky park",
-        "url": "https://image.redbull.com/rbcom/052/2017-10-29/40e69306-fbb5-41b9-a7e0-a72156e5498c/0012/0/0/0/3456/5184/1050/1/method-movie-dasha-nosova-shooting-sparrow-knox.jpg"
+        "url": "https://vladivostok-city.com/uploads/i/bg/502216b2611bb7.75111233.962.jpg"
       }
     ]
   }, {
@@ -368,7 +368,7 @@ const galleries = [
         "url": "https://www.camprest.com/thumbnails/images/2014/7/3/c20b4b59-ab7d-4749-91a0-637671c80118.jpg/1024x0/scale/59f374a9c12b8857bc26e684f3901f32b4344c81.jpg"
       }, {
         "title": "Duisburg",
-        "url": "https://static.alanrogers.com/images/generated/1f54562d1750ed4a/DE40720-info-01_720_540_75_s_c1.jpg"
+        "url": "https://www.planetware.com/wpimages/2020/08/canada-ontario-best-campgrounds-algonquin-provincial-park-fog.jpg"
       }, {
         "title": "Augsburg",
         "url": "https://10exercisescom.files.wordpress.com/2017/06/2-person-tent-on-the-river-side.jpg?w=700"
@@ -383,7 +383,7 @@ const galleries = [
         "url": "https://q-cf.bstatic.com/images/hotel/max1024x768/137/137044433.jpg"
       }, {
         "title": "Bottrop",
-        "url": "https://i1.wp.com/taiwannews.worldtimes.news/wp-content/uploads/2019/06/taipeis-online-public-camping-application-platform-makes-it-easier-to-apply-for-campsites_5d1491daa7d07.jpeg?fit=800%2C600&ssl=1"
+        "url": "https://cf.bstatic.com/images/hotel/max1024x768/192/192170048.jpg"
       }
     ]
   }, {
@@ -467,7 +467,7 @@ const galleries = [
         "url": "https://www.travelcounsellors.co.uk/media/2929157/skiing-in-whistler-canada.jpg"
       }, {
         "title": "British Colombia",
-        "url": "https://www.snowmagazine.com/media/reviews/photos/original/cd/50/a6/10-best-ski-resorts-in-canada-29-1482413092.jpg"
+        "url": "https://p0.pikist.com/photos/535/818/british-columbia-canada-barkervillie-landscape-canadian-bc-mountain-nature-travel.jpg"
       }, {
         "title": "Vancouver",
         "url": "https://cdn1.snowpak.com/images/images/000/009/148/medium/Nothing-beats-powder-skiing-at-Big-White.jpg?1518582553"
@@ -514,7 +514,7 @@ const galleries = [
         "url": "https://i.cbc.ca/1.2929383.1467667070!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/bc-camping.jpg"
       }, {
         "title": "Casa Loma",
-        "url": "https://cdn.familyfuncanada.com/wp-content/uploads/2019/04/Camping-with-Parks-Canada-Two-campers-relax-at-their-scenic-waterfront-campsite-at-Arbutus-Point-in-Gulf-Islands-National-Park-Reserve.-Photo-Parks-Canada-800x533.jpg"
+        "url": "https://c0.wallpaperflare.com/preview/701/592/916/landscape-adventure-camp-camping.jpg"
       }, {
         "title": "Skylon Tower",
         "url": "https://www.rent-a-tent-canada.com/images/Gallery/Rent-a-Tent-Canada_Meadowland6-setupService-Banff.jpg"
